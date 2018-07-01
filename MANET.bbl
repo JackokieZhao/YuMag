@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}
+
+\bibitem{abolhasan2004review}
+Mehran Abolhasan, Tadeusz Wysocki, and Eryk Dutkiewicz.
+\newblock A review of routing protocols for mobile ad hoc networks.
+\newblock {\em Ad hoc networks}, 2(1):1--22, 2004.
+
+\bibitem{bear2007neuroscience}
+Mark~F Bear, Barry~W Connors, and Michael~A Paradiso.
+\newblock {\em Neuroscience}, volume~2.
+\newblock Lippincott Williams \& Wilkins, 2007.
+
+\bibitem{eguiluz2005scale}
+Victor~M Eguiluz, Dante~R Chialvo, Guillermo~A Cecchi, Marwan Baliki, and
+  A~Vania Apkarian.
+\newblock Scale-free brain functional networks.
+\newblock {\em Physical review letters}, 94(1):018102, 2005.
+
+\bibitem{hart1983human}
+Leslie~A Hart.
+\newblock {\em Human brain and human learning}, volume 82283795.
+\newblock Longman New York, 1983.
+
+\bibitem{he2010temporal}
+Biyu~J He, John~M Zempel, Abraham~Z Snyder, and Marcus~E Raichle.
+\newblock The temporal structures and functional significance of scale-free
+  brain activity.
+\newblock {\em Neuron}, 66(3):353--369, 2010.
+
+\bibitem{kandel2000principles}
+Eric~R Kandel, James~H Schwartz, Thomas~M Jessell, Steven~A Siegelbaum, A~James
+  Hudspeth, et~al.
+\newblock {\em Principles of neural science}, volume~4.
+\newblock McGraw-hill New York, 2000.
+
+\bibitem{mauve2001survey}
+Martin Mauve, Jorg Widmer, and Hannes Hartenstein.
+\newblock A survey on position-based routing in mobile ad hoc networks.
+\newblock {\em IEEE network}, 15(6):30--39, 2001.
+
+\bibitem{newman2003structure}
+Mark~EJ Newman.
+\newblock The structure and function of complex networks.
+\newblock {\em SIAM review}, 45(2):167--256, 2003.
+
+\bibitem{royer1999review}
+Elizabeth~M Royer and Chai-Keong Toh.
+\newblock A review of current routing protocols for ad hoc mobile wireless
+  networks.
+\newblock {\em IEEE personal communications}, 6(2):46--55, 1999.
+
+\bibitem{sporns2002network}
+Olaf Sporns.
+\newblock Network analysis, complexity, and brain function.
+\newblock {\em Complexity}, 8(1):56--60, 2002.
+
+\bibitem{stephan2000computational}
+Klaas~E Stephan, Claus-C Hilgetag, Gully~APC Burns, Marc~A O'Neill, Malcolm~P
+  Young, and Rolf Kotter.
+\newblock Computational analysis of functional connectivity between areas of
+  primate cerebral cortex.
+\newblock {\em Philosophical Transactions of the Royal Society of London B:
+  Biological Sciences}, 355(1393):111--126, 2000.
+
+\end{thebibliography}
