@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.13)  2 JUL 2018 17:45
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.13)  2 JUL 2018 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,11 +551,7 @@ LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 538.
 LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 539.
 LaTeX Info: Redefining \not on input line 2146.
 )
-(./MANET.aux
-
-LaTeX Warning: Label `fig: transport_pro' multiply defined.
-
-)
+(./MANET.aux)
 \openout1 = `MANET.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 14.
@@ -744,53 +740,67 @@ LaTeX Warning: Citation `bibid' on page 4 undefined on input line 246.
 LaTeX Warning: Citation `papo2014complex' on page 4 undefined on input line 249
 .
 
-[4]
-File: figures/network_analogy.png Graphic file (type bmp)
-<figures/network_analogy.png>
-File: figures/tran_protocol.pdf Graphic file (type pdf)
-<use figures/tran_protocol.pdf>
- [5] [6]
+[4] [5]
 
-LaTeX Warning: Reference `fig: node_analogy' on page 7 undefined on input line 
-398.
+LaTeX Warning: Reference `fig: analog_net_topology' on page 6 undefined on inpu
+t line 368.
+
+
+LaTeX Warning: Reference `fig: node_analogy' on page 6 undefined on input line 
+370.
 
 File: figures/node_model.pdf Graphic file (type pdf)
 <use figures/node_model.pdf>
 
-LaTeX Warning: Reference `fig: node_analogy' on page 7 undefined on input line 
-408.
+LaTeX Warning: Reference `fig: node_analogy' on page 6 undefined on input line 
+380.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 419--429
+Underfull \hbox (badness 1648) in paragraph at lines 391--401
  \T1/ptm/m/it/10 2) De-sign of In-for-ma-tion Trans-mis-sion and Re-cep-tion
  []
 
+[6]
 File: figures/Net_Arc.pdf Graphic file (type pdf)
 <use figures/Net_Arc.pdf>
-[7] [8]
+
+Underfull \vbox (badness 3168) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 File: figures/tran_protocol.pdf Graphic file (type pdf)
 <use figures/tran_protocol.pdf>
- [9] [10]
-Underfull \hbox (badness 1824) in paragraph at lines 606--618
+
+Underfull \vbox (badness 2150) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 4217) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 1824) in paragraph at lines 578--590
  \T1/ptm/m/it/10 2) Service-Oriented Dy-namic Re-source Schedul-ing: [][][] \T1
 /ptm/m/n/10 In
  []
 
-
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
- [11]
-(./MANET.bbl [12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 694.
- [13
+[11] (./MANET.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
+ [12
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 694.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
  (./MANET.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 694.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 694.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 666.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 666.
 Package rerunfilecheck Info: File `MANET.out' has not changed.
-(rerunfilecheck)             Checksum: EDF66D10020A09AB07B72D02E6E143D6.
+(rerunfilecheck)             Checksum: DF8DBC52500EED00E43D7CAB3880A083.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -798,18 +808,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 694.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
  ) 
 Here is how much of TeX's memory you used:
- 11592 strings out of 492970
- 163992 string characters out of 6134358
- 252947 words of memory out of 5000000
- 15439 multiletter control sequences out of 15000+600000
+ 11583 strings out of 492970
+ 163849 string characters out of 6134358
+ 252392 words of memory out of 5000000
+ 15435 multiletter control sequences out of 15000+600000
  90926 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 30i,9n,45p,415b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,45p,415b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MANET.pdf (13 pages).
+Output written on MANET.pdf (12 pages).

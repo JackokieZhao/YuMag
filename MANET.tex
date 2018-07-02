@@ -240,7 +240,7 @@
 				Therefore, electrical synapse transmission is bidirectional which is different from the vast majority of chemical synapses.
 				Transmission at electrical synapses is very fast and, and it can approach the speed of light in a idle condition. 
 %				One neuron usually  makes electrical synapses with many other neurons, which might strongly excite a neuron by multi-channel postsynaptic potential occurring simultaneously. 
-%			
+		
 			\subsubsection{A Scale-free Network Structure Subjected to Power-law Distribution}
 			
 				In terms of network scale, the neural network obeys the so-called power law distribution (scale-free) that has a certain structural universality\cite{bibid}.
@@ -272,57 +272,36 @@
 		\label{subsec: analogy_of_node_model}
 			The neuron is mainly consisted of cell body and neurites, in which the neurites is in charge of information transmission and reception while the cell body is used to information processing and storage.
 			Therefore, the information of neuronal cells is a trinity of transmission, coomputation, and storage.
-			And the dendrites and axons are seperated, which reveals the separation of transmission and reception in neuron cell. 
-			Meanwhile, the information reception and fusion is parallelled processed within neuron cell, proving the parallel characteristic of information reception, fusion and processing.
+			Moreover, the computation and storage are always integrated in a sense, conforming to the relevant theory of computer.
+			As there are three chief shapes of neurons, each of which equips different function, we can strengthen a certain ability, such as transmission or computation, to reinforce considerding function of the neuron.
+			In neural system, it employs the synapse for information interaction among different neurons, which resembles the combination of antenna and baseband processing unit in communication system.
+			And the dendrites and axons are seperated, revealing the separation of transmission and reception in neuron cell. 
 			The information is transmitted omnidirectionally by axon while it's received directionally by dendrites at the synapse.
-			Information is gradually integrated hierachically in dendrites, which means that the information is also processed while being transmitted,  and is then fused integrally at the inner of the neuron.
-			Similar to the communication system, neuron 
-			Neurons varies in structure and function, and 
-				In the design of NANET nodes, information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
-				
-				Thus, an action potential in the presynaptic neuron can produce, with very little delay, an action potential in the postsynaptic neuron. 
-					
+			In dendrites, the information is gradually integrated hierachically, which means that the information is also processed while being transmitted,  and is then fused integrally at the inner of the neuron.
+			Therefore, the information reception and fusion is parallelled processed within neuron cell, proving the parallel characteristic of information reception, fusion and processing.
+			Meanwhile, the action potential remainds stationary when it's transmited after accomplishing the threshold with the accumulation of electric stimulus.
+			Also, the information is coded by the firing rate and time, which is similar to the frequency modulation in wireless communication.
+
 		\subsection{Analogy of Network Architecture}
+		
 			The human brain contains nearly 100 billion neuron cells, each of which has different shapes and functions.
 			However, when these cells are connected in different ways, trillions of links are established.
-			Electrical synapses usually are regarded as a coordinating mechanism for multiple neuronal activities.
 			All of the neuron and links can be well coordinated to constitute the human's various nervous systems, and operate methodically.
 			Hence, the stable mechanism of information transmission in such a large and complex system is of great reference value for our communication network.
-			In the following, we propose a heterogeneous network structure with space, air, and land integration, and all of the analogy is based on the network.
-			Fig. \ref{fig: analog_net_topology} shows the design of our network structure at a macro level.
-			Thus, the biological neural network is a scale-free network subjected to power-law distribution.
-			As for the network scale, the brain neural network is a scale-free network which subjects to the power-law distribution. 
-			The majority of nodes and links possess a short average path length and can cluster in a relatively small locality subjected to small-world property.
-					\begin{figure}[htbp]
-						\centering
-						\includegraphics[width=3.2in, height=1.6in]{figures/network_analogy}
-						\caption{AdHoc Network Demo}	
-						\label{fig: analog_net_topology}
-					\end{figure}
-						In the information transmission of neurons, the traffic channel is separated from the control channel.
-					The Service channel could be analogized to chemical synaptic transmission. 			
-			The control channel is analogous to the transmission of electric synapses. 
-			From the perspective of network framework, HWN is a distributed and peer-to-peer network. 
-			It does not have a strict control center, and all network nodes have equal status.
-			These variations come from the synaptic plasticity of neuron cells, because The effectiveness of chemical synapses can be modified for short and long periods\cite{kandel2000principles}.
-				
-				
-			\subsubsection{Scale-Free Network}
+			Comparing with biological neural network, the naturally forming HWN is a scale-free network subjected to power-law distribution, too.
+			And, the majority of nodes and links possess a short average path length and can cluster in a relatively small locality subjected to small-world property.
+			From the perspective of network framework, neural netwokr is a distributed and peer-to-peer network without a strict control center but with a stable backbone netowrk relatively.
+			Simultaneously, both the neural network and HWN are hierachical and heterogeneous.
+			At every second, there are thousands of new connections established and thousands of connections broken while more connections are modified at strength, 
+			which appears that the neural network topology is rapidly changing and highly plastic.
 			
-				
-			\subsubsection{Analog of Service and Control Channels}
-			
-			
-			\subsubsection{Distributed and Centerless Network Framework}
-				
-				
-			
-			\subsubsection{Hierarchy and Heterogeneity of Network}
-			
-			\subsubsection{Adaptability of Network Structure}
-				
 		\subsection{Analogy of Transmission Protocol}
-		
+						Thus, an action potential in the presynaptic neuron can produce, with very little delay, an action potential in the postsynaptic neuron. 
+		Analog of Service and Control Channels
+		Electrical synapses usually are regarded as a coordinating mechanism for multiple neuronal activities.
+			In the information transmission of neurons, the traffic channel is separated from the control channel.
+		The Service channel could be analogized to chemical synaptic transmission. 			
+		The control channel is analogous to the transmission of electric synapses. 
 			\subsubsection{Transmission Synergy in Physical Layer}
 				In neuron network, there are many signaling pathways both between and within neuron cells, forming a complicated and complex information network. 
 				This network is in delicate balance, shifting its effects dynamically as the demands on a neuron vary with changes in the organisms behavior \cite{bear2007neuroscience} .
@@ -334,13 +313,7 @@
 				The transmission mechanism of neuron information mainly includes single-line transmission, radial transmission and a small amount of aggregating transmission.
 				Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the radial transmission is mainly the neurons distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward dissemination.
 				Fig. \ref{fig: transport_pro} shows the transport protocol analogy of NANET and Neuron Network.
-				\begin{figure*}[htbp]
-					\centering
-					\includegraphics[width=0.9\linewidth]{figures/tran_protocol.pdf}
-					\caption{Transport Protocol Analogy of NANET and Neuron Network.}	
-					\label{fig: transport_pro}
-				\end{figure*}
-				
+
 				The single-line transmission is analogous to the point-to-point transmission commonly used in communication, and information only interacts between two nodes.
 				The radiative transmission analogy to the physical layer of distributed MIMO, through the participation of other nodes in the cooperative transmission, to improve the system spectrum efficiency and transmission reliability, expand the scope of information dissemination.
 				The radiated transmission can be analogized to the distributed mimo at the physical layer, transmitting information through the participation of other nodes in a cooperative transmission.
@@ -393,7 +366,7 @@
 		In this section, after the analogy of neuronal information transmission mechanism and HWN, 
 		we propose a kind of neuron analogy HWN(\ref{fig: sys_frame}), which is a intelligent, efficient and reliable network.
 		For the entire NANET, we introduce certain goals and techniques in the level of network topology, user service, and transmitting contents.
-		
+		Fig. \ref{fig: analog_net_topology} shows the design of our network structure at a macro level.
 		\subsection{Design of NANET Node}
 				Fig. \ref{fig: node_analogy} shows the model of NANET node we proposed.
 				\begin{figure*}[htbp]
@@ -402,7 +375,7 @@
 					\caption{Design of NANET node.}	
 					\label{fig: NANET_node}
 				\end{figure*}
-				
+			In the design of NANET nodes, information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
 			\subsubsection{Design of NANET Node Structure}
 				
 				In the Fig. \ref{fig: node_analogy}, we can find out that there is a small vertical stick in the middle of the node. 
@@ -438,12 +411,13 @@
 				
 		\subsection{Design of General NANET Architecture}
 			Fig. \ref{fig: sys_frame} represents the design of general NANET architecture.
-				\begin{figure*}[htbp]
-					\centering
-					\includegraphics[width=\linewidth]{figures/Net_Arc.pdf}
-					\caption{Design of general NANET architecture, which contains three layers: space, air, and groud.}	
-					\label{fig: sys_frame}
-				\end{figure*}
+			In the following, we propose a heterogeneous network structure with space, air, and land integration, and all of the analogy is based on the network.
+			\begin{figure*}[htbp]
+				\centering
+				\includegraphics[width=\linewidth]{figures/Net_Arc.pdf}
+				\caption{The design of general NANET architecture, which contains space layer, air layer, and groud layer, reveals the features of NANET structure and the design goals of NANET.}	
+				\label{fig: sys_frame}
+			\end{figure*}
 			\subsubsection{Scale-Free Network}
 				Any naturally growing network would tend to developing into a scale-free network, such as transportation network, highway network, etc. 
 				It's primarily due to that the scale-free network is a good compromise for robustness and transmission efficiency.
@@ -500,8 +474,7 @@
 				Hence, the NANETs can naturally form a hierarchical and heterogeneous network structure  according to the network scale.
 				
 			\subsubsection{Adaptability of Network Structure}
-				At every second, there are thousands of new connections established and thousands of connections broken while more connections are modified at strength, 
-				which appears that the NANET topology is rapidly changing.
+				
 				From the perspective of network's adaptability, nodes can join and leave the NANETs scope at any time, 
 				and the impact of the exit of any node or even partial of total nodes in the system could be negligible.
 				With constantly changing of the network topology,  NANET is a resilient network with dynamically reconstructed resources.
