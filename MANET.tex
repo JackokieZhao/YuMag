@@ -159,12 +159,11 @@
 		Brain is the command center for the human nervous system\cite{hart1983human}.
 		As \cite{rsheng} noted, the nervous network achieves the basic function of signal transduction and information transmission with specialized characteristics.
 		Although everyone's nerons are the similar, there will be many amazing creativities when cells connecting and forming a trillion-dollar link.
-		In this section, we'll discuss the basic characteristics of neural network in three issues: 
-		the neuron node, the  information transmission between neuron nodes, and the neural network.
+		In this section, we'll discuss the basic characteristics of neural network in three issues: the neuron node, the  information transmission between neuron nodes, and the neural network.
 		
 		\subsection{General Characteristics of Neurons}
+		
 			\subsubsection{Structure Characteristics of Neurons}
-			
 				In order to simplyfy the recognition for neuron, we merely elaborate with a typical structure of neuron as shown in Fig. \ref{fig: neuron_cell}.
 				\begin{figure*}[htbp]
 					\centering
@@ -181,8 +180,7 @@
 					\caption{Heterogeneity and Structure Features of Neurons.}
 				\end{figure*}
 				As shown in Fig. \ref{fig: node_het}, there are mainly three types of neurons based on shape and number of neurites: the unipolar, bipolar and multipolar neurons\cite{bear2007neuroscience}. 
-				In general, neuron contains  at least two distinguishable parts: 
-				a central region including the cell body, and multiple neurites radiating away from the cell body. 
+				In general, neuron contains at least two distinguishable parts: a central region including the cell body, and multiple neurites radiating away from the cell body. 
 				Inside the neuron cell body, the cytoskeleton, consisting of microtubules, microfilaments, and neurofilaments, shapes the neuron cell and regulates itself dynamically. 
 				What's called the synapse is the junction between the axon of the previous neuron and the dendrites of the next neuron.
 				With regard to the neurite, it consists of two types: axons and dendrites (fig. \ref{fig: neuron_cell}), which are separated in a neuron cell obviously.
@@ -202,12 +200,10 @@
 				The generation of action potential is based on the parallelled information fusion and processing in the cell body through weighing the consequences of input local signals and then deciding whether to generate an action potential. 
 				When the sum of depolarizations produced by the local signals surpasses a certain voltage threshold, the sodium ion channels in the cell membrane are open and generate an action potential at the trigger zone. 
 				In biological neuron, there exits a kind of excitable membrane that is able to keep action potential with fixed strength and duration once it has been generated.
-				Information is encoded with the frequency of action potentials as well as number and combination of action potentials from different neurons\cite{bear2007neuroscience}. 
+				Eventually, information is encoded with the frequency of action potentials as well as number and combination of action potentials from different neurons\cite{bear2007neuroscience}. 
 				
 		\subsection{Overall Characteristics of Neural Networks}
 			The development of brain science has enabled us to study the structure of the human brain and corresponding mechanism of information transmission.
-			The human brain contains nearly 100 billion neuron cells, each of which has different shapes and functions.
-			However, when these cells are connected in different ways, trillions of links are established.
 			
 			\subsubsection{Information Transmission between Neurons}
 				A synapse is the specialized junction where one part of a neuron joint and communicates with another neuron or cell type (such as a muscle or glandular cell). 
@@ -274,50 +270,57 @@
 		
 		\subsection{Analogy of Node Model}
 		\label{subsec: analogy_of_node_model}
-			\subsubsection{Analog of of Information Transmission and Reception}
-				That is to say, the information is also processed while being transmitted,  and is then fused integrally at the inner of the neuron.
-				Thus the signals are received in neuron by direction at the synapse, and information is gradually integrated hierachically in dendrites.	
-				From the perspective of communication, the separated axon and dendrites show the separation of transmission and reception in neuron cell. 
-				On the other hand, the information reception and fusion is parallelled processed within neuron cell, proving the parallel characteristic of information reception, fusion and processing.
-				Therefore, the information of neuronal cells is a trinity of transmission, coomputation, and storage.
+			The neuron is mainly consisted of cell body and neurites, in which the neurites is in charge of information transmission and reception while the cell body is used to information processing and storage.
+			Therefore, the information of neuronal cells is a trinity of transmission, coomputation, and storage.
+			And the dendrites and axons are seperated, which reveals the separation of transmission and reception in neuron cell. 
+			Meanwhile, the information reception and fusion is parallelled processed within neuron cell, proving the parallel characteristic of information reception, fusion and processing.
+			The information is transmitted omnidirectionally by axon while it's received directionally by dendrites at the synapse.
+			Information is gradually integrated hierachically in dendrites, which means that the information is also processed while being transmitted,  and is then fused integrally at the inner of the neuron.
+			Similar to the communication system, neuron 
+			Neurons varies in structure and function, and 
 				In the design of NANET nodes, information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
-				These structure differences in neurons reveal that the neuron node is heterogeneous.
-					Thus, an action potential in the presynaptic neuron can produce, with very little delay, an action potential in the postsynaptic neuron. 
+				
+				Thus, an action potential in the presynaptic neuron can produce, with very little delay, an action potential in the postsynaptic neuron. 
 					
 		\subsection{Analogy of Network Architecture}
-		Electrical synapses usually are regarded as a coordinating mechanism for multiple neuronal activities.
+			The human brain contains nearly 100 billion neuron cells, each of which has different shapes and functions.
+			However, when these cells are connected in different ways, trillions of links are established.
+			Electrical synapses usually are regarded as a coordinating mechanism for multiple neuronal activities.
 			All of the neuron and links can be well coordinated to constitute the human's various nervous systems, and operate methodically.
 			Hence, the stable mechanism of information transmission in such a large and complex system is of great reference value for our communication network.
 			In the following, we propose a heterogeneous network structure with space, air, and land integration, and all of the analogy is based on the network.
 			Fig. \ref{fig: analog_net_topology} shows the design of our network structure at a macro level.
-			%			\begin{figure}[htbp]
-			%				\centering
-			%				\includegraphics[width=3.2in, height=1.6in]{figures/network_analogy}
-			%				\caption{AdHoc Network Demo}	
-			%				\label{fig: analog_net_topology}
-			%			\end{figure}
-			%			
-			\subsubsection{Scale-Free Network}
 			Thus, the biological neural network is a scale-free network subjected to power-law distribution.
-				As for the network scale, the brain neural network is a scale-free network which subjects to the power-law distribution. 
-				The majority of nodes and links possess a short average path length and can cluster in a relatively small locality subjected to small-world property.
+			As for the network scale, the brain neural network is a scale-free network which subjects to the power-law distribution. 
+			The majority of nodes and links possess a short average path length and can cluster in a relatively small locality subjected to small-world property.
+					\begin{figure}[htbp]
+						\centering
+						\includegraphics[width=3.2in, height=1.6in]{figures/network_analogy}
+						\caption{AdHoc Network Demo}	
+						\label{fig: analog_net_topology}
+					\end{figure}
+						In the information transmission of neurons, the traffic channel is separated from the control channel.
+					The Service channel could be analogized to chemical synaptic transmission. 			
+			The control channel is analogous to the transmission of electric synapses. 
+			From the perspective of network framework, HWN is a distributed and peer-to-peer network. 
+			It does not have a strict control center, and all network nodes have equal status.
+			These variations come from the synaptic plasticity of neuron cells, because The effectiveness of chemical synapses can be modified for short and long periods\cite{kandel2000principles}.
+				
+				
+			\subsubsection{Scale-Free Network}
+			
 				
 			\subsubsection{Analog of Service and Control Channels}
-				In the information transmission of neurons, the traffic channel is separated from the control channel.
-				The Service channel could be analogized to chemical synaptic transmission. 			
-				The control channel is analogous to the transmission of electric synapses. 
+			
 			
 			\subsubsection{Distributed and Centerless Network Framework}
-				From the perspective of network framework, HWN is a distributed and peer-to-peer network. 
-				It does not have a strict control center, and all network nodes have equal status.
+				
 				
 			
 			\subsubsection{Hierarchy and Heterogeneity of Network}
 			
 			\subsubsection{Adaptability of Network Structure}
-				These variations come from the synaptic plasticity of neuron cells, because The effectiveness of chemical synapses can be modified for short and long periods\cite{kandel2000principles}.
-			
-			
+				
 		\subsection{Analogy of Transmission Protocol}
 		
 			\subsubsection{Transmission Synergy in Physical Layer}
@@ -494,10 +497,11 @@
 				Since nodes have different functions, nodes would enhance relevant ability.
 				For instance, the communication nodes would strenghthen their transmission ability emerging a higher communication capacity, while the computation node would build up the computing power.
 				Accordingly, we would alter the shape of node to fit for the functional requirements of the node.
-				Hence, the NANETs can naturally form a hierarchical and heterogeneous network structure  according to the network scale.			
+				Hence, the NANETs can naturally form a hierarchical and heterogeneous network structure  according to the network scale.
 				
 			\subsubsection{Adaptability of Network Structure}
-				At every second, there are thousands of new connections established and thousands of connections broken while more connections are modified at strength, which appears that the NANET topology is rapidly changing.
+				At every second, there are thousands of new connections established and thousands of connections broken while more connections are modified at strength, 
+				which appears that the NANET topology is rapidly changing.
 				From the perspective of network's adaptability, nodes can join and leave the NANETs scope at any time, 
 				and the impact of the exit of any node or even partial of total nodes in the system could be negligible.
 				With constantly changing of the network topology,  NANET is a resilient network with dynamically reconstructed resources.
@@ -505,7 +509,69 @@
 				These variations come from the plasticity of NANET nodes, because the function and performance of node can be modified for short and long periods.
 		
 		\subsection{Design of Transmission Protocol of NANET}
-		
+			\subsubsection{Transmission Synergy in Physical Layer}
+				In neuron network, there are many signaling pathways both between and within neuron cells, forming a complicated and complex information network. 
+				This network is in delicate balance, shifting its effects dynamically as the demands on a neuron vary with changes in the organisms behavior \cite{bear2007neuroscience} .
+				Despite the scale difference between single neuron cell and neuron network, the neuron network is self-similarity and resembles the signaling network within a single neuron cell. 
+				That is, the neuron network receives a variety of inputs with time and space diversity, and these inputs result in either positive potentiation or negative potentiation through distributed pathways. 
+				After a complicated and complex information fusion, the neuron network generates a particular output. 
+				In summary, this information transmission in neuron network is based on the information fusion and cooperation of distributed neuron cells.
+				
+				The transmission mechanism of neuron information mainly includes single-line transmission, radial transmission and a small amount of aggregating transmission.
+				Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the radial transmission is mainly the neurons distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward dissemination.
+				Fig. \ref{fig: transport_pro} shows the transport protocol analogy of NANET and Neuron Network.
+				\begin{figure*}[htbp]
+					\centering
+					\includegraphics[width=0.9\linewidth]{figures/tran_protocol.pdf}
+					\caption{Transport Protocol Analogy of NANET and Neuron Network.}	
+					\label{fig: transport_pro}
+				\end{figure*}
+				
+				The single-line transmission is analogous to the point-to-point transmission commonly used in communication, and information only interacts between two nodes.
+				The radiative transmission analogy to the physical layer of distributed MIMO, through the participation of other nodes in the cooperative transmission, to improve the system spectrum efficiency and transmission reliability, expand the scope of information dissemination.
+				The radiated transmission can be analogized to the distributed mimo at the physical layer, transmitting information through the participation of other nodes in a cooperative transmission.
+				In a way, it enhance the system spectral efficiency and transmission reliability while expanding the scope of information dissemination.
+				
+			\subsubsection{Coding Synergy in Network Layer}
+				Neuronal cells receive thousands of synaptic inputs that activate different combinations of receptor proteins and their corresponding ion-gated channels on the cell surface.
+				It namely means that neuronal information transmission is related to combination of activated channels and receptor proteins, which is similar to the network coding in our information network. 
+				Through the information transmission between multiple network nodes, it is allowed to encode and fuse the information from different links. 
+				Thus, the combination of all link information constitutes the complete information.
+				Network coding enables HWN nodes to achieve both coding and routing functions,In terms of the concrete transmission mechanism, the NANET would imitate the physical transmission mechanism of neurons 
+				to achieve integration of different regional networks and distributed cooperative transmission of information.
+				
+				For content-distribution applications in the network, its content obey the twenty-eight flow distribution law.
+				The current network mechanism is in a end-to-end transmission manner. 
+				In the transmission process, the network is not memorized, and its content is not perceived which will lead to a large amount of repeated transmission of content.
+				Network traffic will exponentially increase eventually if not changing the transmission mechanism. 
+				And we cannot solve the exponential growth of traffic because of the linear expansion of the network capacity.
+				
+				The HWN network is a integrated network of time, space, and frequency.
+				Spectrum resources are limited. This requires us to make reasonable use of spectrum resources.
+				Through multiple levels of multiplexing of spectrum resources, such as time, space, and frequency, the utilization efficiency of communication resources is improved, and time-space-frequency integrated information transmission is realized.
+				So it's necessary for us to make reasonable use of spectrum resources, and to increase the utilization efficiency of communication resources through the multiplexing of spectrum, such as the integration of time domain, space domain, and frequency domain, as the neurons does in dendrites' information integration.
+				
+				The HWN network is an integrated network of sky, air, and ground. 
+				The integration of sky, air, and ground not only enables the network to have large-scale changes in scale,
+				but also enlarge the coverage range of the network.
+				And it could conduce to the combination of the control channel and the Service channel, which would in turn contribute to the cooperative transmission of the content.
+				
+				The HWN network is a network with links, networks and service integrating.
+				Through the computation and storage capabilities of network nodes, HWN networks can perceive and comprehend the contents that application distributes and user requests.
+				It's essentially a cross-layer collaboration of the network layer and the application layer, 
+				which will be conductive to alleviate or solve the exponential growth problem of traffic and bring about a series of  institutional optimizations of traditional content distribution.
+				
+				Therefore, the NANET is a content-oriented network with a distributed cooperative transmission mechanism. increase the network throughput, 
+				contribute to load balancing, and improve network bandwidth utilization.
+				
+			\subsubsection{Content Synergy in Application Layer}
+				The HWT is a network where their nodes integrate ability of transmitting, storage, and computation.
+				In some cases, computation resources and storage resources can be exchanged for bandwidth resources, such as what have been done in content distribution network (CDN). 
+				With the ability of fusing and processing for HWN node, we can use the node's capability of storage to cache user-requested content in the network nodes where users relatively concentrated in, and respond to users' real-time requests. Thus, users can be adequate to obtain the content requested in the surrounding nodes, which would improve the efficiency of the user's acquisition of data resource.
+				And then, HWN would naturally come into being a content distribution network, promoting the intelligent flow of content in NANET.
+				In the application layer, the content distribution based HWN, would redirect the user's request to the service node closest to the user himself/herself, according to the network traffic, links status, load distribution, response time, etc.
+				In this way, the user can get the desired content nearby, which at the same time can alleviate or solve the issue of network congestion, improve the response speed of the user's requests for services and resources, and greatly improve the efficiency of resource utilization.
+				Therefore, information distribution of NANET can realize distributed fusion processing and cooperative transmission.
 		
 		\subsection{Design Goals and Techniques for NANET}
 		\label{section: framework}	
