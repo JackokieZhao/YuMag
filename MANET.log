@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.13)  1 JUL 2018 20:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.13)  2 JUL 2018 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,26 +752,26 @@ File: figures/tran_protocol.pdf Graphic file (type pdf)
  [5] [6]
 
 LaTeX Warning: Reference `fig: node_analogy' on page 7 undefined on input line 
-397.
+398.
 
 File: figures/node_model.pdf Graphic file (type pdf)
 <use figures/node_model.pdf>
 
 LaTeX Warning: Reference `fig: node_analogy' on page 7 undefined on input line 
-407.
+408.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 418--428
+Underfull \hbox (badness 1648) in paragraph at lines 419--429
  \T1/ptm/m/it/10 2) De-sign of In-for-ma-tion Trans-mis-sion and Re-cep-tion
  []
 
-File: figures/sys_frame.pdf Graphic file (type pdf)
-<use figures/sys_frame.pdf>
+File: figures/Net_Arc.pdf Graphic file (type pdf)
+<use figures/Net_Arc.pdf>
 [7] [8]
 File: figures/tran_protocol.pdf Graphic file (type pdf)
 <use figures/tran_protocol.pdf>
  [9] [10]
-Underfull \hbox (badness 1824) in paragraph at lines 605--617
+Underfull \hbox (badness 1824) in paragraph at lines 606--618
  \T1/ptm/m/it/10 2) Service-Oriented Dy-namic Re-source Schedul-ing: [][][] \T1
 /ptm/m/n/10 In
  []
@@ -781,23 +781,17 @@ Underfull \vbox (badness 1231) has occurred while \output is active []
 
  [11]
 (./MANET.bbl [12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 693.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 694.
  [13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 693.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 694.
  (./MANET.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 693.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 693.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 694.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 694.
+Package rerunfilecheck Info: File `MANET.out' has not changed.
+(rerunfilecheck)             Checksum: EDF66D10020A09AB07B72D02E6E143D6.
 
-
-Package rerunfilecheck Warning: File `MANET.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MANET.out':
-(rerunfilecheck)             Before: 742D7C94336F9904BAC740CB007E2809
-(rerunfilecheck)             After:  2048BFDF48B2A11501B119896FD2F06D.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -807,13 +801,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 693.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 694.
  ) 
 Here is how much of TeX's memory you used:
- 11593 strings out of 492970
- 164016 string characters out of 6134358
- 253085 words of memory out of 5000000
- 15440 multiletter control sequences out of 15000+600000
+ 11592 strings out of 492970
+ 163992 string characters out of 6134358
+ 252947 words of memory out of 5000000
+ 15439 multiletter control sequences out of 15000+600000
  90926 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  30i,9n,45p,415b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
