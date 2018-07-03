@@ -337,21 +337,20 @@
 					\caption{Design of NANET node.}	
 					\label{fig: NANET_node}
 				\end{figure*}
-			In the design of NANET nodes, information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
+		
 			\subsubsection{Design of NANET Node Structure}
-				
-				In the Fig. \ref{fig: node_analogy}, we can find out that there is a small vertical stick in the middle of the node. 
+				In the Fig. \ref{fig: NANET_node}, we can find out that there is a small vertical stick in the middle of the node. 
 				It's the omnidirectional antenna of NANET node corresponding to the axon of the neuron node, and we can broadcast and forward information omnidirectionally.
 				There are many a blocks pointing in all directions at the bottom of the NANET node, which denote directional antenna. 
 				Corresponding to the dendrite of the neuron node, they can receive information form different directions.
-				In certain, we should also enhance the capabilities of storage and computation  in NANET node, so that it has the fusing and processing capabilities in application layer.
-				Therefore, we propose the NANET node model, 
-				which is an intelligent node equipped with transmitting, processing, and storage(Fig. \ref{fig: NANET_node}).
-				The transmission and reception of information are separated, and Service channels and control channels are independent as well.
-				On the other hand, information transmission is cooperative among nodes,  and broadcast and singlecast are combined with each other.
-				
+				Following, it is the baseband processing unit(BPU) for the smallest y area connected with directional antennas in the center area of NANET node,
+				which is mainly used for preprocessing of information reception and information processing, such as the signal amplification, etc.
+				Below the BPU, the light gray cylinder represents the CPU that is utilized to process the signal to transmit or receive, for example, the fusion of signals from multiple directional antennas..
+				At the bottom of NANET node, there exits a dark gray cylinder euqipped with the storage or cache capability of processing data or computing results.
+
 			\subsubsection{Design of Information Transmission and Reception Mechanism}
-				In the design of NANET nodes, information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
+				In the design of NANET nodes, the information transmission and reception are seperated guranteed by the seperation of transmission antenna and reception antenna.
+				information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
 				Therefore, the information transmission is unidirectional in NANET node.
 				Information reception of HWN node utilize multiple directional antennas to separate different channels and receive information through orientation. 
 				Multi-channel antennas' application could contribute to the reducing interference as well as facilitating the fusion of multi-channel information.
@@ -361,6 +360,10 @@
 				And the multichannel reception would effectively promote the spectrum efficiency, transmitting speed, and service quality in HWN.
 				Since the transmission of information is in a broadcast mode, the node also assists other nodes in the transmitting information when forwarding its own received information, 
 				which achieving the effect of cooperative transmission between the nodes.
+				In certain, we should also enhance the capabilities of storage and computation  in NANET node, so that it has the fusing and processing capabilities in application layer.
+				Therefore, the NANET node model we proposed, which is an intelligent node equipped with transmitting, processing, and storage(Fig. \ref{fig: NANET_node}).
+				The transmission and reception of information are separated, and Service channels and control channels are independent as well.
+				On the other hand, information transmission is cooperative among nodes,  and broadcast and singlecast are combined with each other.
 				
 			\subsubsection{Design of Information Fushion and Processing}
 				As shown in Fig. \ref{fig: NANET_node}, the received information of NANET node is based on the parallelled information fusion and processing in the processing unit.
@@ -446,20 +449,11 @@
 		
 		\subsection{Design of Transmission Protocol of NANET}
 			\subsubsection{Transmission Synergy in Physical Layer}
-				In neuron network, there are many signaling pathways both between and within neuron cells, forming a complicated and complex information network. 
-				This network is in delicate balance, shifting its effects dynamically as the demands on a neuron vary with changes in the organisms behavior \cite{bear2007neuroscience} .
-				Despite the scale difference between single neuron cell and neuron network, the neuron network is self-similarity and resembles the signaling network within a single neuron cell. 
-				That is, the neuron network receives a variety of inputs with time and space diversity, and these inputs result in either positive potentiation or negative potentiation through distributed pathways. 
-				After a complicated and complex information fusion, the neuron network generates a particular output. 
 				In summary, this information transmission in neuron network is based on the information fusion and cooperation of distributed neuron cells.
 				
 				The transmission mechanism of neuron information mainly includes single-line transmission, divergent transmission and a small amount of convergent transmission.
 				Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the divergent transmission is mainly the neurons distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward dissemination.
 				
-				The single-line transmission is analogous to the point-to-point transmission commonly used in communication, and information only interacts between two nodes.
-				The radiative transmission analogy to the physical layer of distributed MIMO, through the participation of other nodes in the cooperative transmission, to improve the system spectrum efficiency and transmission reliability, expand the scope of information dissemination.
-				The radiated transmission can be analogized to the distributed mimo at the physical layer, transmitting information through the participation of other nodes in a cooperative transmission.
-				In a way, it enhance the system spectral efficiency and transmission reliability while expanding the scope of information dissemination.
 				
 			\subsubsection{Coding Synergy in Network Layer}
 				Neuronal cells receive thousands of synaptic inputs that activate different combinations of receptor proteins and their corresponding ion-gated channels on the cell surface.
