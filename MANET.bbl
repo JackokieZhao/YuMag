@@ -5,16 +5,45 @@ Mehran Abolhasan, Tadeusz Wysocki, and Eryk Dutkiewicz.
 \newblock A review of routing protocols for mobile ad hoc networks.
 \newblock {\em Ad hoc networks}, 2(1):1--22, 2004.
 
+\bibitem{ahlswede2000network}
+Rudolf Ahlswede, Ning Cai, S-YR Li, and Raymond~W Yeung.
+\newblock Network information flow.
+\newblock {\em IEEE Transactions on information theory}, 46(4):1204--1216,
+  2000.
+
 \bibitem{bear2007neuroscience}
 Mark~F Bear, Barry~W Connors, and Michael~A Paradiso.
 \newblock {\em Neuroscience}, volume~2.
 \newblock Lippincott Williams \& Wilkins, 2007.
+
+\bibitem{bendsoe2001topology}
+Martin~P Bends{\o}e.
+\newblock Topology optimization.
+\newblock In {\em Encyclopedia of Optimization}, pages 2636--2638. Springer,
+  2001.
+
+\bibitem{boccaletti2006complex}
+Stefano Boccaletti, Vito Latora, Yamir Moreno, Martin Chavez, and D-U Hwang.
+\newblock Complex networks: Structure and dynamics.
+\newblock {\em Physics reports}, 424(4-5):175--308, 2006.
 
 \bibitem{eguiluz2005scale}
 Victor~M Eguiluz, Dante~R Chialvo, Guillermo~A Cecchi, Marwan Baliki, and
   A~Vania Apkarian.
 \newblock Scale-free brain functional networks.
 \newblock {\em Physical review letters}, 94(1):018102, 2005.
+
+\bibitem{gibbons1992primer}
+Robert Gibbons.
+\newblock {\em A primer in game theory}.
+\newblock Harvester Wheatsheaf, 1992.
+
+\bibitem{gkantsidis2005network}
+Christos Gkantsidis and Pablo~Rodriguez Rodriguez.
+\newblock Network coding for large scale content distribution.
+\newblock In {\em INFOCOM 2005. 24th Annual Joint Conference of the IEEE
+  Computer and Communications Societies. Proceedings IEEE}, volume~4, pages
+  2235--2245. IEEE, 2005.
 
 \bibitem{hart1983human}
 Leslie~A Hart.
@@ -38,10 +67,25 @@ Martin Mauve, Jorg Widmer, and Hannes Hartenstein.
 \newblock A survey on position-based routing in mobile ad hoc networks.
 \newblock {\em IEEE network}, 15(6):30--39, 2001.
 
+\bibitem{nakamoto2008bitcoin}
+Satoshi Nakamoto.
+\newblock Bitcoin: A peer-to-peer electronic cash system.
+\newblock 2008.
+
+\bibitem{nash1951non}
+John Nash.
+\newblock Non-cooperative games.
+\newblock {\em Annals of mathematics}, pages 286--295, 1951.
+
 \bibitem{newman2003structure}
 Mark~EJ Newman.
 \newblock The structure and function of complex networks.
 \newblock {\em SIAM review}, 45(2):167--256, 2003.
+
+\bibitem{peng2004cdn}
+Gang Peng.
+\newblock Cdn: Content distribution network.
+\newblock {\em arXiv preprint cs/0411069}, 2004.
 
 \bibitem{royer1999review}
 Elizabeth~M Royer and Chai-Keong Toh.

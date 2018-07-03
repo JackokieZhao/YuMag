@@ -43,7 +43,7 @@
 	\label{section: introduction}
 	\IEEEPARstart{H}{eterogeneous} wireless network(HWN) is a distributed, self-organizing, and heterogeneous network without unique center.
 		Recently, it have been envisioned to play a crucial role in the future networks, 
-		such as vehicle2vehicle(v2v)/vehicle2instrument(v2i), sensor networks, 5G/B5G, military communication network, and so forth.
+		such as Vehicle2Vehicle(V2V)/Vehicle2Instrument(V2I), sensor networks, 5G/B5G, military communication network, and so forth.
 		
 		Neuron Analogy Networks(NANETs) is a heterogeneous wireless network, which consists of a collection of wireless mobile nodes (or routers) dynamically forming a temporary network without the use of any existing network infrastructure or centralized administration.
 		
@@ -64,8 +64,7 @@
 		
 		Therefore, there does exit effects on the information network just as the influence of network structure, node structure, encoding method, and routing protocol.
 		The combination of those multiple factors has cause great trouble for us to systematically resolve the problems HWN networks confronting.
-		
-		
+
 		
 		In this paper, we will systematically propose a neuron analogy heterogeneous networks architecture, analogous to human neuronal networks, to settle or alleviate current challenges the HWN facing.
 		
@@ -322,7 +321,7 @@
 			The neuron network receives a variety of inputs with time and space diversity, and  generates a particular output after a complicated and complex information fusion.
 			Accordingly, the parallel transmission is a collaborative way through the participation of multiple sets of network nodes, which is similar to the core thoughts of network coding.
 			In the single-line transmission,  it's analogous to the point-to-point transmission that is commonly used in communication, because the information only interacts between two nodes,
-			Transmitting information through the participation of other nodes, the divergent transmission can be analogized to the distributed mimo at the physical layer, which can improve the system spectrum efficiency and transmission reliability, expand the scope of information dissemination.
+			Transmitting information through the participation of other nodes, the divergent transmission can be analogized to the distributed MIMO at the physical layer, which can improve the system spectrum efficiency and transmission reliability, expand the scope of information dissemination.
 	
 	\section{The Integral Design and Goals of Neuron Analogy Mobile Ad Hoc Network}
 	\label{section: general_design}
@@ -419,108 +418,78 @@
 			\subsubsection{Hierarchy and Heterogeneity of Network}
 				Heterogeneity is not only a challenge but also an opportunity. 
 				Homogeneous networks are difficult to adapt to the uncertain requirements of complex time-varying transmission, processing, and control.
-				To address these problems, it is necessary to employ different networks which bring about the adaptability to situations the network meeting.	
-				And then, only the heterogeneous network can satisfy various users' requirements of service or functions.
-				Above all, hierachical networks are expedient to manage and plan to some extent.
+				Above all, we employ different small-world networks, which bring about the adaptability to situations the network meeting, to satisfy various users' requirements of service or functions.	
+				And then, we would introduce some artificial factors to the architechture construction of NANET to make the network more expedient to sense, manage, and remold to some extents.
 				As shown in Fig. \ref{fig: sys_frame}, the NANET would be growing hierachically of its own accord, 
 				as there are naturally three layers in the network: the space layer(satelites), the air layer(airships, airplanes, UAVs, etc.), and the grond layer(random access network).
-				Hence, the NANETs can naturally form a hierarchical and heterogeneous network structure  according to the network scale.
-				
-			\subsubsection{Adaptability of Network Structure}
-				
-				From the perspective of network's adaptability, nodes can join and leave the NANETs scope at any time, 
-				and the impact of the exit of any node or even partial of total nodes in the system could be negligible.
-				With constantly changing of the network topology,  NANET is a resilient network with dynamically reconstructed resources.
-				And in a sense, its resilience to damage and robustness are very strong.
-				These variations come from the plasticity of NANET nodes, because the function and performance of node can be modified for short and long periods.
-		
-		Therefore, the information transmission of the space-air-land integrated NANET is equipped with the characteristic: separation of Service channels and control channels, combination of wide and narrow bands, integration of long and short links.
-		It's a compromise between robustness and transmission efficiency.
+				Hence, the NANETs can naturally form a hierarchical and heterogeneous network framework on the network scale.
 		
 		\subsection{Design of Transmission Protocol of NANET}
-			\subsubsection{Transmission Synergy in Physical Layer}
-				In summary, this information transmission in neuron network is based on the information fusion and cooperation of distributed neuron cells.
-				
-				The transmission mechanism of neuron information mainly includes single-line transmission, divergent transmission and a small amount of convergent transmission.
-				Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the divergent transmission is mainly the neurons distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward dissemination.
-				
-					When omnidirectional, let the people on the edge have the opportunity to participate in the decision-making process as much as possible, and receive the channels to isolate them in order to facilitate the fusion process.
-				This not only facilitates distributed and cooperative transmission and fusion processing, but also helps suppress the mechanism of multi-channel interference.
-				Embodies the simplicity of transmission.
-			\subsubsection{Coding Synergy in Network Layer}
-				Neuronal cells receive thousands of synaptic inputs that activate different combinations of receptor proteins and their corresponding ion-gated channels on the cell surface.
-				It namely means that neuronal information transmission is related to combination of activated channels and receptor proteins, which is similar to the network coding in our information network. 
-				Through the information transmission between multiple network nodes, it is allowed to encode and fuse the information from different links. 
-				Thus, the combination of all link information constitutes the complete information.
-				Network coding enables HWN nodes to achieve both coding and routing functions,In terms of the concrete transmission mechanism, the NANET would imitate the physical transmission mechanism of neurons 
-				to achieve integration of different regional networks and distributed cooperative transmission of information.
-				
-				For content-distribution applications in the network, its content obey the twenty-eight flow distribution law.
-				The current network mechanism is in a end-to-end transmission manner. 
-				In the transmission process, the network is not memorized, and its content is not perceived which will lead to a large amount of repeated transmission of content.
-				Network traffic will exponentially increase eventually if not changing the transmission mechanism. 
-				And we cannot solve the exponential growth of traffic because of the linear expansion of the network capacity.
-				
-				The HWN network is a integrated network of time, space, and frequency.
-				Spectrum resources are limited. This requires us to make reasonable use of spectrum resources.
-				Through multiple levels of multiplexing of spectrum resources, such as time, space, and frequency, the utilization efficiency of communication resources is improved, and time-space-frequency integrated information transmission is realized.
-				So it's necessary for us to make reasonable use of spectrum resources, and to increase the utilization efficiency of communication resources through the multiplexing of spectrum, such as the integration of time domain, space domain, and frequency domain, as the neurons does in dendrites' information integration.
-				
-				The HWN network is an integrated network of sky, air, and ground. 
-				The integration of sky, air, and ground not only enables the network to have large-scale changes in scale,
-				but also enlarge the coverage range of the network.
-				And it could conduce to the combination of the control channel and the Service channel, which would in turn contribute to the cooperative transmission of the content.
-				
-				The HWN network is a network with links, networks and service integrating.
-				Through the computation and storage capabilities of network nodes, HWN networks can perceive and comprehend the contents that application distributes and user requests.
-				It's essentially a cross-layer collaboration of the network layer and the application layer, 
-				which will be conductive to alleviate or solve the exponential growth problem of traffic and bring about a series of  institutional optimizations of traditional content distribution.
-				
-				Therefore, the NANET is a content-oriented network with a distributed cooperative transmission mechanism. increase the network throughput, 
-				contribute to load balancing, and improve network bandwidth utilization.
-				
-			\subsubsection{Content Synergy in Application Layer}
-				The HWT is a network where their nodes integrate ability of transmitting, storage, and computation.
-				In some cases, computation resources and storage resources can be exchanged for bandwidth resources, such as what have been done in content distribution network (CDN). 
-				With the ability of fusing and processing for HWN node, we can use the node's capability of storage to cache user-requested content in the network nodes where users relatively concentrated in, and respond to users' real-time requests. Thus, users can be adequate to obtain the content requested in the surrounding nodes, which would improve the efficiency of the user's acquisition of data resource.
-				And then, HWN would naturally come into being a content distribution network, promoting the intelligent flow of content in NANET.
-				In the application layer, the content distribution based HWN, would redirect the user's request to the service node closest to the user himself/herself, according to the network traffic, links status, load distribution, response time, etc.
-				In this way, the user can get the desired content nearby, which at the same time can alleviate or solve the issue of network congestion, improve the response speed of the user's requests for services and resources, and greatly improve the efficiency of resource utilization.
-				Therefore, information distribution of NANET can realize distributed fusion processing and cooperative transmission.
 		
+			\subsubsection{Transmission Synergy in Physical Layer}
+				Refering to the transmission methods mentioned in Fig. \ref{fig: transport_pro}, the NANET transmission mechanism includes single-line transmission, divergent transmission, parallel transmission and a small amount of convergent transmission.
+				Among the various mechanisms, the single-line transmission is the common manner of infromation transmission within the localized region(small-world), while the convergent transmission is usually used as the transmission between different regions(small-world). 
+				And in the meanwhile, they always possess distinct transmission bandwidth. 
+				As for the divergent transmission, it make use of the assistance of nodes surrounding to delivery information to target node, which greatly enlarges the transmission scale.
+				Then, the parallel transmission exploits the distributed massive MIMO techniques to enhance the transmission capacity and ability of interference suppression.
+				In summary, the information transmission in NANET is based on the information fusion and cooperation of distributed nodes and links.
+
+			\subsubsection{Coding Synergy in Network Layer}
+				In traditional HWN, the network status can't be memorized, and network content can't be perceived, which will lead to a large amount of repeated transmission of content.
+				On design of network content transmission, the wirelss nature of NANET(coupled with network topology) means the adverse effect on the inteference, the packets loss, etc.
+				\cite{ahlswede2000network} offers us a great revelation in coding synergy, especially in satellite communication. 
+				The NANET nodes are capable of transmission, computation, and storage.
+				Meanwhile, network coding enables NANET nodes to achieve both coding and routing functions.
+				Thus, we can enable the backbone ground nodes, air nodes and space nodes to be provided with the scheduling ability.
+				In fact, these nodes act as controller of network topology and coding synergy and transmission synergy, which can help the service nodes collaborate with each other.
+				The service nodes are equipped with multiplt directional antennas, guranteeing the information reception from different links.
+				And the processing ability ensures that NANET nodes can fuse and process the multi-channel information.
+
+			\subsubsection{Content Synergy in Application Layer}
+				The NANET is designed to be a peer-to-peer (P2P) content distribution networks, which retains the backbone network specialized, simplified, and optimized to only forward data.
+				In some cases, computation resources and storage resources can be exchanged for bandwidth resources, such as what have been done in content distribution network (CDN)\cite{gkantsidis2005network}\cite{peng2004cdn}. 
+				As NANET nodes have the abilities of fusing and processing, we can use the node's capability of storage to cache user-requested content in the network nodes where users relatively concentrated in, and respond to users' real-time requests. 
+				Thus, users can be adequate to obtain the content requested in the surrounding nodes, which would improve the efficiency of the user's acquisition of data resource.
+				And then, the NANET would naturally come into being a content distribution network, promoting the intelligent flow of content in NANET.
+				In the application layer, the content distribution of NANET would redirect the user's request to the service node closest to the user himself/herself, according to the network traffic, links status, load distribution, response time, etc.
+				In this way, the user can get the desired content nearby, which at the same time can alleviate or solve the issue of network congestion, improve the response speed of the user's requests for services and resources, and greatly improve the efficiency of resource utilization.
+				Therefore, information distribution of NANET can realize distributed content synergy in application layer.
+				
 		\subsection{Design Goals and Techniques for NANET}
 		\label{section: framework}	
-		%	From the perspective of network topology, we hope that the AN-HWN network can construct the network topology actively for specific tasks and achieve the appropriate network transition.
-		%	For specific services, resources can be dynamically allocated to achieve on-demand resource allocation;
-		%	Content-oriented, distributed and collaboratively transmitted, to ensure the quality of service of users.
-			
+			In this subsection, we would introduce the design goals and corresponding techniques in conjunction with Fig. \ref{fig: sys_frame}.
+	
 			\subsubsection{Task-oriented Active Construction of Network Topology}
-			
-				%				The basis of communication networks is routing. 
-				%				Generally, routing is usually used for sensing the network topology and perceiving the network state.
-				In terms of network topology, the topology of NANET we proposed is oriented toward specific tasks.
+				The NANET is a resilient network with dynamically reconstructed resources.
+				From the perspective of network's adaptability, nodes can join and leave the scope of NANETs at any time, 
+				and the impact of the exit of any or even part of the whole nodes could be negligible, which means that its resilience to damage and robustness are very strong.
+				These variations come from the plasticity of NANET nodes, because the function and structure of node can be modified for short and long periods.
+				
+				The basis of communication networks is routing. 
+				Generally, routing is usually used for sensing the network topology and perceiving the network state.
+				In terms of NANET topology we proposed, it is oriented toward specific tasks.
 				The overall idea is to build a control channel that is independent of the traffic channel as the control backbone network of the network topology.
 				After each node in NANET obtains its own status, it reports the status information to the control backbone network with the control channel.
-				The information of each node is gathered at the control backbone network, and the topology of the network is dynamically planned and adjusted in a quasi-real-time manner according to the system requirements.
-				Then, the control node delivers the signaling of topology information to relevant nodes within the NANET.
+				Then the nodes' information is gathered at the control backbone nodes, and they would delivers the signaling of topology information to relevant nodes within the NANET.
 				Following, corresponding nodes would regulate their own state according to the control signaling to realize the macro network topology adjustments.
-				In this way, we can actively recognize and control the topology of NANET in real time,.
+				Therefore, the NANET topology is dynamically planned and adjusted in a quasi-real-time manner according to the system requirements.
+				
 				There exits many advantages for NANET.
-				On the one hand, the system overhead caused by the cooperation of multiple groups of Service channels through the control channel is much smaller if compared with the cost of routing, 
+				On the one hand, the system overhead caused by the cooperation of multiple groups of service channels through the control channel is much smaller if compared with the cost of routing, 
 				and the network topology can be perceived and controlled in real time.
 				On the other hand, since the current network topology is actively constructed by the NANET itself, the topology is required for the current task specially, 
-				which means a greatly improvement on the efficiency of information transmission and a quick achievement of current task. 
-				The tasks that the network needs to perform.
-				
-				In summary, the NANET we proposed would possess a strong adaptability with perceiving the real-time network state and actively constructing the network topology.
-				We can make use of complex networks, dynamics, and other theoretical tools to equip the network with the ability to actively constructing the topology, 
+				which means a greatly improvement on the efficiency of information transmission and a quick achievement of the tasks that the network needs to perform.
+						
+				In summary, the NANET would possess a strong adaptability with perceiving the real-time network state and actively constructing the network topology.
+				We can make use of complex networks\cite{newman2003structure}\cite{boccaletti2006complex}, topology\cite{bendsoe2001topology}, 
+				and other theoretical tools to equip the network with the ability to actively constructing the topology, 
 				and compromise the conflict between heterogeneity and complexity of the network.
-		
+					
 			\subsubsection{Service-Oriented Dynamic Resource Scheduling}
-			
-				In terms of resource scheduling, we envisage that NANET would establish a dynamic pricing mechanism gradually,
+				
+				In terms of resource scheduling, NANET would establish a dynamic pricing mechanism gradually,
 				which can be used to convert network resources into corresponding value and supply users corresponding value of network resources according to the user's payment.
-				It's similar to present traffic network on the flow planning when the HWN is specialized to each point-to-point transmission of Service information.
+				It's similar to present traffic network on the flow planning when the NANET is specialized to each point-to-point transmission of service information.
 				Maybe, in one place, the roads are wide, but they often undergo traffic jam.
 				While in another place, the roads are narrow, but their traffic system is very efficient.
 				Therefore, when the flow reaches a certain level, the width of the road is not a decisive factor in determining the efficiency of traffic.
@@ -532,19 +501,19 @@
 				Ultimately, we can use network resources more rationally to achieve a compromise between efficiency and fairness, and achieve a balanced flow across the world.
 				
 				Dynamic pricing is relatively easy to implement, but what's more difficult is to found a dynamic charging mechanism.
-				Blockchain is a value-passing network, and had been proposed by Satoshi Nakamoto in 2008. 
+				Blockchain is a value-passing network, and had been proposed by Satoshi Nakamoto in 2008\cite{nakamoto2008bitcoin}. 
 				It is an intelligent peer-to-peer network that uses a distributed database to identify, disseminate, and document information. 
-				Hence, we could use the relevant technology of blockchain to value network resources in NANET, and value the network resources to establish a natural competition mechanism.
+				Hence, we could use the relevant blockchain technology to value network resources in NANET, establishing a natural competition mechanism.
 				In the NANET, users can purchase the virtual currency, and they can obtain virtual currency through previous behavior on network resource utilization as well.
 				For example, if a user decreases the network load, or facilitates load balancing, or improves resource utilization of whole network through his own actions, 
-				NANET system would award the user a corresponding count of virtual currency as a reward to the user for his promoting overall performance of the network. 
+				NANET system would award the user a corresponding count of virtual currency as a reward for his promoting overall network performance. 
 				As for the mechanism of dynamic pricing and dynamic charging of resources, 
-				we would naturally utilize the principles of economics to solve, such as the basic economics of Nash equilibrium theory in game theory.
+				we would naturally utilize the principles of economics to solve, such as the basic economics of Nash equilibrium theory in game theory\cite{gibbons1992primer}\cite{nash1951non}.
 				
 				In short, in order to promote the utilization efficiency of network resources, 
 				we would exploit some mathematical methods, such as game theory, to value network resources and charge users the virtual currency dynamically, according to the real-time status of the NANET.
 				At last, NANET would realize a mechanism of scheduling network resources dynamically.
-				
+			
 			\subsubsection{Content-Oriented Distributed Collaborative Transmission}
 			
 				In terms of the concrete transmission mechanism, the NANET would imitate the physical transmission mechanism of neurons 
@@ -556,29 +525,32 @@
 				Network traffic will exponentially increase eventually if not changing the transmission mechanism. 
 				And we cannot solve the exponential growth of traffic because of the linear expansion of the network capacity.
 				
-				The NANET is a network where their nodes integrate ability of transmitting, storage, and computation.
+				The NANET is a network where their nodes integrate ability of transmission, storage, and computation.
 				In some cases, computation resources and storage resources can be exchanged for bandwidth resources, such as what have been done in content distribution network (CDN). 
 				The capabilities of node's storage and computation make users adequate to obtain the content requested in the surrounding nodes, improving the efficiency of the user's acquisition of data resource.
-				Consequently, we would equip the node of NANET with the ability of transmitting, storage, and computation, which is similar to  what we have been doing in so-called 3C integration.
+				Consequently, we would equip the node of NANET with the ability of transmission, storage, and computation, which is similar to  what we have been doing in so-called 3C integration.
 				Thus, the node would have the memory function and be adequate to store content, which can promote the intelligent flow of content in NANET.
 				
-				The HWN network is a integrated network of time, space, and frequency.
+				The NANET is a integrated network of time, space, and frequency.
 				Spectrum resources are limited. This requires us to make reasonable use of spectrum resources.
 				Through multiple levels of multiplexing of spectrum resources, such as time, space, and frequency, the utilization efficiency of communication resources is improved, and time-space-frequency integrated information transmission is realized.
 				So it's necessary for us to make reasonable use of spectrum resources, and to increase the utilization efficiency of communication resources through the multiplexing of spectrum, such as the integration of time domain, space domain, and frequency domain, as the neurons does in dendrites' information integration.
 				
-				The HWN network is an integrated network of sky, air, and ground. 
+				The NANET is an integrated network of sky, air, and ground. 
 				The integration of sky, air, and ground not only enables the network to have large-scale changes in scale,
 				but also enlarge the coverage range of the network.
 				And it could conduce to the combination of the control channel and the Service channel, which would in turn contribute to the cooperative transmission of the content.
 				
-				The HWN network is a network with links, networks and Service integrating.
+				The NANET is a network with links, networks and Service integrating.
 				Through the computation and storage capabilities of network nodes, HWN networks can perceive and comprehend the contents that application distributes and user requests.
 				It's essentially a cross-layer collaboration of the network layer and the application layer, 
 				which will be conductive to alleviate or solve the exponential growth problem of traffic and bring about a series of  institutional optimizations of traditional content distribution.
 				
 				Therefore, the NANET is a content-oriented network with a distributed cooperative transmission mechanism.
-			
+				From the perspective of network topology, we hope that the AN-HWN network can construct the network topology actively for specific tasks and achieve the appropriate network transition.
+				For specific services, resources can be dynamically allocated to realize the on-demand allocation of resources.
+				Content-oriented, distributed and collaboratively transmitted, to ensure the quality of service of users.
+				
 	\section{Conclusions and Visions Future}
 	\label{section: Conclusion}
 		Recently, mobile ad hoc network is attracting lots of research attention in multiple fields with the development of internet of vehicles as well as internet of things. 
@@ -588,8 +560,9 @@
 		including the node model, network structure, and transmission protocol. 
 		And then, we propose the Neuron Analogy Mobile Ad Hoc Network(NANET) and provide its overall design of node and network architecture simultaneously.
 		In addition, we depict the overall design goals and related feasible technologies.
-	
-	
+		Therefore, the information transmission of the space-air-land integrated NANET is equipped with the characteristic: separation of Service channels and control channels, combination of wide and narrow bands, integration of long and short links.
+		It's a compromise between robustness and transmission efficiency.
+	In terms of the concrete transmission mechanism, the NANET would imitate the physical transmission mechanism of neurons to achieve integration of different regional networks and distributed cooperative transmission of information.
 	\appendices
 	\section*{Acknowledgment}
 	This work is financially supported by Natural Sciences and Engineering Research Council of Canada (NSERC) and National Natural Science Foundation of China (91638204).
