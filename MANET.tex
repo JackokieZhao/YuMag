@@ -348,32 +348,30 @@
 				Below the BPU, the light gray cylinder represents the CPU that is utilized to process the signal to transmit or receive, for example, the fusion of signals from multiple directional antennas..
 				At the bottom of NANET node, there exits a dark gray cylinder euqipped with the storage or cache capability of processing data or computing results.
 
-			\subsubsection{Design of Information Transmission and Reception Mechanism}
-				In the design of NANET nodes, the information transmission and reception are seperated guranteed by the seperation of transmission antenna and reception antenna.
-				information is sent employing omnidirectional antennas and relayed in the form of broadcast. 
-				Therefore, the information transmission is unidirectional in NANET node.
-				Information reception of HWN node utilize multiple directional antennas to separate different channels and receive information through orientation. 
-				Multi-channel antennas' application could contribute to the reducing interference as well as facilitating the fusion of multi-channel information.
-				The merged information is forwarded after the accumulated information reaches a certain threshold or the waiting time meets a certain triggering mechanism, 
-				which is similar to the generation of action potential until the accumulation of incentive information approaching a threshold in our neurons.
+			\subsubsection{Design of Information Transmission and Reception Mechanism in NANET Node}
+				In the design of NANET nodes, the information transmission and reception are uncoupled guaranteed by the seperation of transmission antenna and reception antenna.
+				As for the transmission antenna(in control backbone node? not clear), it's the omnidirectional antenna with larger power than the reception antenna, and transmit the information with in a broadcast form. 
+				And it also assists other nodes in the transmitting information when forwarding its own received information, which can achieves the effect of cooperative transmission between the nodes.
+				Information reception of NANET node utilize multiple directional antennas to separate different channels and receive information through specific orientation. 
+				To some extent, multi-channel antennas' application could contribute to the reducing interference as well as facilitating the fusion of multi-channel information.
+				And the multichannel reception would effectively promote the spectrum efficiency, transmitting speed, and QoS in NANET.
 				Certainly, from the perspective of MIMO, it can exploit the spatial degrees of freedom provided by the multi-channel transmission channel.
-				And the multichannel reception would effectively promote the spectrum efficiency, transmitting speed, and service quality in HWN.
-				Since the transmission of information is in a broadcast mode, the node also assists other nodes in the transmitting information when forwarding its own received information, 
-				which achieving the effect of cooperative transmission between the nodes.
-				In certain, we should also enhance the capabilities of storage and computation  in NANET node, so that it has the fusing and processing capabilities in application layer.
-				Therefore, the NANET node model we proposed, which is an intelligent node equipped with transmitting, processing, and storage(Fig. \ref{fig: NANET_node}).
-				The transmission and reception of information are separated, and Service channels and control channels are independent as well.
-				On the other hand, information transmission is cooperative among nodes,  and broadcast and singlecast are combined with each other.
+				In certain, we also enhance the capabilities of storage and computation  in NANET node, so that it has the fusing and processing capabilities in application layer.
+				Hence, in the NANET, information transmission is cooperative among nodes,  and broadcast and singlecast are combined with each other.
 				
 			\subsubsection{Design of Information Fushion and Processing}
 				As shown in Fig. \ref{fig: NANET_node}, the received information of NANET node is based on the parallelled information fusion and processing in the processing unit.
-				When the fusion of multi-channel information received by directional antenna satisfy certain conditions, for example, the threshold, 
-				the NANET node will foward or store the fused information.
-				Information is encoded in the frequency of electromagnetic wave.
-				Thus, the information of directional antenna is converted into frequency coding, which owns relatively strong anti-interference ability.
+				When the fusion of multi-channel information received by directional antenna satisfy certain conditions, for example, approaching the threshold, 
+				the NANET node will foward or store the fused information, which is similiar to the production of the action potential.
+				In order to reinforce the anti-interference ability, the information is encoded with the frequency of electromagnetic wave.
 				In particularly, the information could be encoded and transmitted with several NANET node in cooperation with each other, as is done by network coding.
 				Once the node decide to foward the infromation, the infrormation would be trasmitted in a constant power.
+				The merged information is forwarded after the accumulated information reaches a certain threshold or the waiting time meets a certain triggering mechanism, 
+				which is similar to the generation of action potential until the accumulation of incentive information approaching a threshold in our neurons.
 				
+				Therefore, the NANET node model we proposed, is an intelligent node equipped with transmitting, processing, and storage(Fig. \ref{fig: NANET_node}).
+				The transmission and reception of information are separated, and service channels are independent of the control channels.
+	
 		\subsection{Design of General NANET Architecture}
 			
 			In the following, we propose a heterogeneous network structure with space, air, and land integration, and all of the analogy is based on the network.

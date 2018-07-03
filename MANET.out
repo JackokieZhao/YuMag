@@ -24,7 +24,7 @@
 \BOOKMARK [1][-]{section.5}{The\040Integral\040Design\040and\040Goals\040of\040Neuron\040Analogy\040Mobile\040Ad\040Hoc\040Network}{}% 24
 \BOOKMARK [2][-]{subsection.5.1}{Design\040of\040NANET\040Node}{section.5}% 25
 \BOOKMARK [3][-]{subsubsection.5.1.1}{Design\040of\040NANET\040Node\040Structure}{subsection.5.1}% 26
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Design\040of\040Information\040Transmission\040and\040Reception\040Mechanism}{subsection.5.1}% 27
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Design\040of\040Information\040Transmission\040and\040Reception\040Mechanism\040in\040NANET\040Node}{subsection.5.1}% 27
 \BOOKMARK [3][-]{subsubsection.5.1.3}{Design\040of\040Information\040Fushion\040and\040Processing}{subsection.5.1}% 28
 \BOOKMARK [2][-]{subsection.5.2}{Design\040of\040General\040NANET\040Architecture}{section.5}% 29
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Scale-Free\040Network}{subsection.5.2}% 30
