@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.13)  2 JUL 2018 22:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.13)  3 JUL 2018 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -734,73 +734,59 @@ ined on input line 232.
 
 [3]
 
-LaTeX Warning: Citation `bibid' on page 4 undefined on input line 246.
+LaTeX Warning: Citation `bibid' on page 4 undefined on input line 250.
 
 
-LaTeX Warning: Citation `papo2014complex' on page 4 undefined on input line 249
+LaTeX Warning: Citation `papo2014complex' on page 4 undefined on input line 253
 .
 
-[4] [5]
-
-LaTeX Warning: Reference `fig: analog_net_topology' on page 6 undefined on inpu
-t line 368.
-
-
-LaTeX Warning: Reference `fig: node_analogy' on page 6 undefined on input line 
-370.
-
+[4]
+File: figures/tran_protocol.pdf Graphic file (type pdf)
+<use figures/tran_protocol.pdf>
 File: figures/node_model.pdf Graphic file (type pdf)
 <use figures/node_model.pdf>
+ [5]
 
 LaTeX Warning: Reference `fig: node_analogy' on page 6 undefined on input line 
-380.
+343.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 391--401
+Underfull \hbox (badness 1648) in paragraph at lines 354--364
  \T1/ptm/m/it/10 2) De-sign of In-for-ma-tion Trans-mis-sion and Re-cep-tion
  []
 
-[6]
+
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
 File: figures/Net_Arc.pdf Graphic file (type pdf)
 <use figures/Net_Arc.pdf>
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 3168) has occurred while \output is active []
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[8]
+Underfull \vbox (badness 2913) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-File: figures/tran_protocol.pdf Graphic file (type pdf)
-<use figures/tran_protocol.pdf>
-
-Underfull \vbox (badness 2150) has occurred while \output is active []
-
- [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
- [10]
-Underfull \hbox (badness 1824) in paragraph at lines 578--590
+Underfull \hbox (badness 1824) in paragraph at lines 535--547
  \T1/ptm/m/it/10 2) Service-Oriented Dy-namic Re-source Schedul-ing: [][][] \T1
 /ptm/m/n/10 In
  []
 
-[11] (./MANET.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
- [12
+[9] (./MANET.bbl [10])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 623.
+ [11
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 623.
  (./MANET.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 666.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 666.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 623.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 623.
 Package rerunfilecheck Info: File `MANET.out' has not changed.
-(rerunfilecheck)             Checksum: DF8DBC52500EED00E43D7CAB3880A083.
+(rerunfilecheck)             Checksum: 228E1A49E89745A4DB091DD8708A0F90.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -808,15 +794,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 623.
  ) 
 Here is how much of TeX's memory you used:
- 11583 strings out of 492970
- 163849 string characters out of 6134358
- 252392 words of memory out of 5000000
- 15435 multiletter control sequences out of 15000+600000
+ 11581 strings out of 492970
+ 163807 string characters out of 6134358
+ 251045 words of memory out of 5000000
+ 15433 multiletter control sequences out of 15000+600000
  90926 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 30i,9n,45p,415b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,45p,415b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MANET.pdf (12 pages).
+Output written on MANET.pdf (11 pages).
