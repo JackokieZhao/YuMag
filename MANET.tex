@@ -370,12 +370,12 @@
 				which is similar to the generation of action potential until the accumulation of incentive information approaching a threshold in our neurons.
 				
 				Therefore, the NANET node model we proposed, is an intelligent node equipped with transmitting, processing, and storage(Fig. \ref{fig: NANET_node}).
-				The transmission and reception of information are separated, and service channels are independent of the control channels.
+				The transmission and reception of information are separated.
 	
 		\subsection{Design of General NANET Architecture}
 			
-			In the following, we propose a heterogeneous network structure with space, air, and land integration, and all of the analogy is based on the network.
-			Fig. \ref{fig: sys_frame} shows the general design of NANET architecture at a macro level.
+			In the following, we propose a NANET architechture with the trinity of space, air, and groud based on the analogy to the biological neural network.
+			Fig. \ref{fig: sys_frame} shows the general design of NANET architecture from the macro perspective.
 			\begin{figure*}[htbp]
 				\centering
 				\includegraphics[width=\linewidth]{figures/Net_Arc.pdf}
@@ -385,43 +385,33 @@
 			\subsubsection{Scale-Free Network}
 				Any naturally growing network would tend to developing into a scale-free network, such as transportation network, highway network, etc. 
 				It's primarily due to that the scale-free network is a good compromise for robustness and transmission efficiency.
-				However, it's certainly problematic for the limitation of network scale if the NANET was built directly on a scale-free network.
-				Because NANET always contains only hundreds or thousands of nodes, which is insufficient from the scale of the neural network.
-				In the proposed NANET, links among nodes is large-scale changes in the space-air-land integrated network.
+				As a space-air-groud integrated network, NANET contains large-scale changing links among NANET nodes.
 				Lengths of links differs from each other, and subjects to power distribution as well. 
-				At the same time, density of nodes or links varies in different location.x
-				The majority of nodes and links possess a short average path length and can cluster in a relatively small locality subjected to small-world property.
+				At the same time, density of nodes or links varies in different locations.
+				Meanwhile, the bulk of the links possess a short average path length and the majority of nodes can cluster in a relatively small zone, which subjected to small-world property.
 				
 			\subsubsection{Seperation of Service and Control Channels}
-				In the information transmission of NANET, the traffic channel is separated from the control channel.
+				In the information transmission of NANET, the service channel is separated from the control channel.
 				Generally, the control channel perform as a synchronization mechanism for information transmission of multiple nodes, 
-				and information transmission in control channel is bi-directional, fast, and reliable when compared to service channel.                  
-				Signaling information does not require further amplification due to its shortness. 
+				and information transmission in control channel is bi-directional, fast, and reliable when compared with service channel.                  
+				Signaling information does not require further amplification due to its shortness.
 				And it can't be processed, that is, it has the characteristic of unchangeability .
-				Afterwards, characteristic of reliability and unchangeability can be further guaranteed at the protocol level.
-				At the same time, we can use the wired network or reduce the number of hops (such as satellite communications) in the control channel information transmission, 
-				and ensure the speed and the efficiency of the control channel transmission from the physical layer.
-				When omnidirectional, let the people on the edge have the opportunity to participate in the decision-making process as much as possible, and receive the channels to isolate them in order to facilitate the fusion process.
-				This not only facilitates distributed and cooperative transmission and fusion processing, but also helps suppress the mechanism of multi-channel interference.
-				Embodies the simplicity of transmission.
-				
-				From the aspect of network's transmission efficiency, 
-				the ground node of NANET might require many hops to reach the target node for most nodes while the satellite node can almost connect to any node by one hop.
-				So the transmission efficiency of satellite communication is the highest, 
-				and its delay may also be affected by the number of hops which is much lower compared to the ground HWN.
+				Moreover, the property of reliability and unchangeability can be further guaranteed at the protocol level.
+				On the one hand, wired channels can be used as control channel in ground for its highest transmission speed.
+				On the other hand, the satelite or airship links can serve as control channel as wel,l while the links among genenral node play the part of service channels, 
+				which realizes the characteristic that control channel is dramatically faster than the service channels.
+				Because the ground node might require many hops to reach the target node for most nodes while the satellite node can almost connect to any node by one hop.
+				Thus, the transmission efficiency of satellite communication is the highest, and its delay may also be affected by the number of hops which is much lower compared to the ground network.
 				Of course, its resistance to damage and robustness are the worst, too.
-				Limited by the bandwidth, satellite communications can be used as control channels(wired channels can be used as control channel for its transmission speed), and conventional AdHoc networks are used as Service channels, which realizes the characteristic that control channel is dramatically faster than the Service channels.
-				Therefore, the information transmission of the space-air-land integrated NANET is equipped with the characteristic: separation of Service channels and control channels, combination of wide and narrow bands, integration of long and short links.
-				It's a compromise between robustness and transmission efficiency.
-				
+
 			\subsubsection{Distributed and Centerless Network Framework}
 				The NANET is a distributed network without a strict control center, all nodes of which have relatively equal status.
-				And the network's distribution is reflected in the distribution of network framework and the distribution of information transmission.
-				The NANET is a self-growing network, which determines that the network structure is unlikely to be a centralized network.
-				Owing to fllfilling various requirements of service in different areas, the network would develop into a distributed network in network framework.
+				And the property of distribution is reflected in the distribution of network framework and the distribution of information transmission.
+				The NANET is a self-growing and self-organizing network, which determines that the network structure is unlikely to be a centralized network.
+				Owing to fullfilling various requirements of service in different areas, the NANET would develop into a distributed network in network framework.
 				Meanwhile, the information transmission in NANET is collaborative and distributed as well, which can greatly promote the efficiency of information transmission.
-				However, non-center dosen't denote absolute equality or sameness for all of the NANET nodes, 
-				and the NANET always possess the backbone from the perpective of entire system architecture.
+				However, non-center dosen't denote absolute equality or sameness for all of the NANET nodes.
+				On the whole, the NANET always possess the backbone network from the perpective of entire system architecture.
 				
 			\subsubsection{Hierarchy and Heterogeneity of Network}
 				Heterogeneity is not only a challenge but also an opportunity. 
@@ -445,6 +435,9 @@
 				And in a sense, its resilience to damage and robustness are very strong.
 				These variations come from the plasticity of NANET nodes, because the function and performance of node can be modified for short and long periods.
 		
+		Therefore, the information transmission of the space-air-land integrated NANET is equipped with the characteristic: separation of Service channels and control channels, combination of wide and narrow bands, integration of long and short links.
+		It's a compromise between robustness and transmission efficiency.
+		
 		\subsection{Design of Transmission Protocol of NANET}
 			\subsubsection{Transmission Synergy in Physical Layer}
 				In summary, this information transmission in neuron network is based on the information fusion and cooperation of distributed neuron cells.
@@ -452,7 +445,9 @@
 				The transmission mechanism of neuron information mainly includes single-line transmission, divergent transmission and a small amount of convergent transmission.
 				Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the divergent transmission is mainly the neurons distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward dissemination.
 				
-				
+					When omnidirectional, let the people on the edge have the opportunity to participate in the decision-making process as much as possible, and receive the channels to isolate them in order to facilitate the fusion process.
+				This not only facilitates distributed and cooperative transmission and fusion processing, but also helps suppress the mechanism of multi-channel interference.
+				Embodies the simplicity of transmission.
 			\subsubsection{Coding Synergy in Network Layer}
 				Neuronal cells receive thousands of synaptic inputs that activate different combinations of receptor proteins and their corresponding ion-gated channels on the cell surface.
 				It namely means that neuronal information transmission is related to combination of activated channels and receptor proteins, which is similar to the network coding in our information network. 
