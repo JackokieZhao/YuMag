@@ -13,8 +13,8 @@
 % Article
 \begin{document}
 	
-	\title{Neuron Analogy Network}
-	%		\title{Bio-Inspired Heterogeneous Wireless Networks Design: A Neuron Analogy Perspective }
+%	\title{Neuron Analogy Network}
+	\title{Bio-Inspired Heterogeneous Wireless Networks Design: A Neuron Analogy Perspective }
 	
 	\author{Quan~Yu,~\IEEEmembership{Fellow,~CAE}}	
 	\markboth{Journal of Communication,~Vol.~14, No.~8, December~2018}%
@@ -25,9 +25,7 @@
 		Recently, heterogeneous wireless network(HWN) is attracting lots of research attention in multiple fields with the development of 4G, internet of vehicles, internet of things, etc. 
 		However, with the mobility and increasing number of nodes, the performance of HWN would decrease exponentially due to the time-varying of network topology and uncertainty of service requirement. 
 		In this paper, we primarily introduce the challenges that current wireless network confronting.
-		Then, we elaborate the information transmission mechanism of neural netwroks, 
-		and compare the mechanisim with that of HWN in detail, 
-		including the node model, network structure, and transmission protocol. 
+		Then, we elaborate the information transmission mechanism of neural netwroks, and compare the mechanisim with that of HWN in detail, including the node model, network structure, and transmission protocol. 
 		Furthermore, we propose the neuron analogy heterogenous wirelss network(NANET) initially and provide its overall design of node and network architecture simultaneously as well.
 		In addition, we depict the macroscopic goals of NANET  and related feasible technologies that might be applied in the future.
 	\end{abstract}
@@ -227,7 +225,7 @@
 			
 				As shown in Fig. \ref{fig: chemical_trans}, the presynaptic is usually composed by axon terminal, and presynaptic and postsynaptic membranes are separated by a synaptic cleft.
 				Most neurons receive multiple synaptic inputs that activate different combinations of ion channels and receptor proteins. 
-				The postsynaptic neuron integrates all these complex ionic and chemical signals to produce the action potentials\cite{beanewman2003structure007neuroscience}. 
+				The postsynaptic neuron integrates all these complex ionic and chemical signals to produce the action potentials\cite{newman2003structure}. 
 				Synaptic integration constitutes the neural computation for transformation of many synaptic inputs to a single neuronal output, by which multiple synaptic potentials combine within one postsynaptic neuron.
 				The neuron is firing action potentials at a high rate, and because many synapses were activated at the same time, activations summed to bring the spike-initiation zone of the postsynaptic neuron to threshold, and this cell then generated action potentials. 
 				
@@ -245,9 +243,9 @@
 				
 			\subsubsection{A Scale-free Network Structure Subjected to Power-law Distribution}
 			
-				In terms of network scale, the neural network obeys the so-called power law distribution (scale-free) that has a certain structural universality\cite{bibid}.
+				In terms of network scale, the neural network obeys the so-called power law distribution (scale-free) that has a certain structural universality\cite{eguiluz2005scale}.
 				The range of neuronal network signal transmission is large-scale changes, and the length of axons ranges from several micrometers to more than one meter which is a difference of nearly a million times.
-				Meanwhile, the neural networks is with short average path length, big clustering coefficient, and more clustered feature compared to random networks, which represents the small-world characterisctic in some sense\cite{eguiluz2005scale}
+				Meanwhile, the neural networks is with short average path length, big clustering coefficient, and more clustered feature compared to random networks, which represents the small-world characterisctic in a sense\cite{eguiluz2005scale}.
 				As \cite{papo2014complex} noted, the brain neuron network shows small-world property at global level, non-random topological property at mesoscopic level, and centrality property at nodal level. 
 			
 			\subsubsection{Hierarchical and Heterogeneous Network Architecture}			
@@ -277,7 +275,7 @@
 			Moreover, the computation and storage are always integrated in a sense, conforming to the relevant theory of computer.
 			As there are three chief shapes of neurons, each of which equips different function, we can strengthen a certain ability, such as transmission or computation, to reinforce considerding function of the neuron.
 			In neural system, it employs the synapse for information interaction among different neurons, which resembles the combination of antenna and baseband processing unit in communication system.
-			And the dendrites and axons are seperated, revealing the separation of transmission and reception in neuron cell. 
+			And the dendrites and axons are seperated, revealing the separation of transmission and reception in neuron cell.
 			The information is transmitted omnidirectionally by axon while it's received directionally by dendrites at the synapse.
 			In dendrites, the information is gradually integrated hierachically, which means that the information is also processed while being transmitted,  and is then fused integrally at the inner of the neuron.
 			Therefore, the information reception and fusion is parallelled processed within neuron cell, proving the parallel characteristic of information reception, fusion and processing.
@@ -302,7 +300,7 @@
 			In the information transmission of neurons, the traffic channel is separated from the control channel.
 			The Service channel could be analogized to chemical synaptic transmission, while the control channel is analogous to the transmission of electric synapses transmission. 
 			Information transfer in neuronal networks is generally dominated by chemical synaptic transmission, 
-			whereas the electric synapses transmission  is often used as a synchronization mechanism for coordinating multiple sets of neuronal activities, which is similar to signaling protocols in communication networks.
+			whereas the electric synapses transmission  is often used as a synchronization mechanism for coordinating multiple sets of neuronal activities, which is similar to signaling protocols in communication networks\cite{kandel2000principles}.
 			Since the electrical synapse applys the electron to transfer information, its' speed is extraodinarily fast than that of chemical synapse that employs the neurotransmitter with a delay of about one millisecond.
 			The chemical synapse is collaborative for its abilities of fusing and processing, while the electric synapse is  exceedingly reliable due to the constant action potentials.
 			Meanwhile, it's duplex and narrow-band for information transfer in  electric synapse but singleplex and wide-band for that in chemical synapse, 
@@ -395,8 +393,8 @@
 				In the information transmission of NANET, the service channel is separated from the control channel.
 				Generally, the control channel perform as a synchronization mechanism for information transmission of multiple nodes, 
 				and information transmission in control channel is bi-directional, fast, and reliable when compared with service channel.                  
-				Signaling information does not require further amplification due to its shortness.
-				And it can't be processed, that is, it has the characteristic of unchangeability .
+				Signaling information doesn't require further amplification due to its shortness.
+				And it can't be processed, meaning that it has the characteristic of invariance.
 				Moreover, the property of reliability and unchangeability can be further guaranteed at the protocol level.
 				On the one hand, wired channels can be used as control channel in ground for its highest transmission speed.
 				On the other hand, the satelite or airship links can serve as control channel as wel,l while the links among genenral node play the part of service channels, 
@@ -447,7 +445,7 @@
 				The NANET is designed to be a peer-to-peer (P2P) content distribution networks, which retains the backbone network specialized, simplified, and optimized to only forward data.
 				In some cases, computation resources and storage resources can be exchanged for bandwidth resources, such as what have been done in content distribution network (CDN)\cite{gkantsidis2005network}\cite{peng2004cdn}. 
 				As NANET nodes have the abilities of fusing and processing, we can use the node's capability of storage to cache user-requested content in the network nodes where users relatively concentrated in, and respond to users' real-time requests. 
-				Thus, users can be adequate to obtain the content requested in the surrounding nodes, which would improve the efficiency of the user's acquisition of data resource.
+				Thus, users can be adequate to obtain the content requested in the surrounding nodes, which would improve the efficiency of the users' acquisitions of data resources.
 				And then, the NANET would naturally come into being a content distribution network, promoting the intelligent flow of content in NANET.
 				In the application layer, the content distribution of NANET would redirect the user's request to the service node closest to the user himself/herself, according to the network traffic, links status, load distribution, response time, etc.
 				In this way, the user can get the desired content nearby, which at the same time can alleviate or solve the issue of network congestion, improve the response speed of the user's requests for services and resources, and greatly improve the efficiency of resource utilization.
