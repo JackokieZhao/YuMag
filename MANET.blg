@@ -20,45 +20,45 @@ Warning--I didn't find a database entry for "beanewman2003structure007neuroscien
 Warning--I didn't find a database entry for "bibid"
 Warning--I didn't find a database entry for "papo2014complex"
 Warning--empty journal in nakamoto2008bitcoin
-You've used 19 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            624 strings with 6914 characters,
-and the built_in function-call counts, 6597 in all, are:
-= -- 654
-> -- 304
+            640 strings with 7278 characters,
+and the built_in function-call counts, 7276 in all, are:
+= -- 724
+> -- 335
 < -- 7
-+ -- 127
-- -- 102
-* -- 474
-:= -- 1095
-add.period$ -- 59
-call.type$ -- 19
-change.case$ -- 103
++ -- 139
+- -- 112
+* -- 529
+:= -- 1209
+add.period$ -- 65
+call.type$ -- 21
+change.case$ -- 114
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 249
-empty$ -- 505
-format.name$ -- 102
-if$ -- 1366
+cite$ -- 22
+duplicate$ -- 271
+empty$ -- 557
+format.name$ -- 112
+if$ -- 1503
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 23
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 107
+int.to.str$ -- 21
+missing$ -- 25
+newline$ -- 108
+num.names$ -- 42
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 97
 quote$ -- 0
-skip$ -- 175
+skip$ -- 190
 stack$ -- 0
-substring$ -- 435
-swap$ -- 54
+substring$ -- 489
+swap$ -- 56
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
+type$ -- 76
 warning$ -- 1
-while$ -- 66
-width$ -- 21
-write$ -- 210
+while$ -- 74
+width$ -- 23
+write$ -- 232
 (There were 3 error messages)

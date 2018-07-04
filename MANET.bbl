@@ -93,6 +93,11 @@ Elizabeth~M Royer and Chai-Keong Toh.
   networks.
 \newblock {\em IEEE personal communications}, 6(2):46--55, 1999.
 
+\bibitem{spirit1994optical}
+Dave~M Spirit, Andrew~D Ellis, and Pete~E Barnsley.
+\newblock Optical time division multiplexing: Systems and networks.
+\newblock {\em IEEE Communications Magazine}, 32(12):56--62, 1994.
+
 \bibitem{sporns2002network}
 Olaf Sporns.
 \newblock Network analysis, complexity, and brain function.
@@ -105,5 +110,12 @@ Klaas~E Stephan, Claus-C Hilgetag, Gully~APC Burns, Marc~A O'Neill, Malcolm~P
   primate cerebral cortex.
 \newblock {\em Philosophical Transactions of the Royal Society of London B:
   Biological Sciences}, 355(1393):111--126, 2000.
+
+\bibitem{weinstein1971data}
+S~Weinstein and Paul Ebert.
+\newblock Data transmission by frequency-division multiplexing using the
+  discrete fourier transform.
+\newblock {\em IEEE transactions on Communication Technology}, 19(5):628--634,
+  1971.
 
 \end{thebibliography}

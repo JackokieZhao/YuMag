@@ -24,7 +24,8 @@
 	\begin{abstract}
 		Recently, heterogeneous wireless network(HWN) is attracting lots of research attention in multiple fields with the development of 4G, internet of vehicles, internet of things, etc. 
 		However, with the mobility and increasing number of nodes, the performance of HWN would decrease exponentially due to the time-varying of network topology and uncertainty of service requirement. 
-		In this paper, we primarily introduce the information transmission mechanism of neural netwroks, 
+		In this paper, we primarily introduce the challenges that current wireless network confronting.
+		Then, we elaborate the information transmission mechanism of neural netwroks, 
 		and compare the mechanisim with that of HWN in detail, 
 		including the node model, network structure, and transmission protocol. 
 		Furthermore, we propose the neuron analogy heterogenous wirelss network(NANET) initially and provide its overall design of node and network architecture simultaneously as well.
@@ -57,15 +58,13 @@
 		At present, a lot of works have conducted research on information networks and accomplished certain achievements.
 		Jinyang Li et al. studied the capacity of AdHoc networks.
 		Work by Matthias Grossglauser et al. believes that mobility increases the capacity of Ad Hoc networks.
-		Rudolf Ahlswede et al. proposed the theory of network coding to increase the capacity of a multicast network by coding the received information through relay nodes.
-		*** Researched 3C fusion theory, transmission, calculation, storage in one, and achieved certain results, has been widely used.
+		Rudolf Ahlswede et al. proposed the theory of network coding to increase the capacity of a multicast network by coding the received information through relay nodes....
 		EM Royer summarizes the routing protocols in Ad hoc networks.
 		However, these studies were mainly applied at the engineering level and didn;t reach the theoretical height of Shannon's "information theory." \par
 		
 		Therefore, there does exit effects on the information network just as the influence of network structure, node structure, encoding method, and routing protocol.
 		The combination of those multiple factors has cause great trouble for us to systematically resolve the problems HWN networks confronting.
 
-		
 		In this paper, we will systematically propose a neuron analogy heterogeneous networks architecture, analogous to human neuronal networks, to settle or alleviate current challenges the HWN facing.
 		
 		The remainder of the paper is organized as follows. 
@@ -517,42 +516,41 @@
 			
 				In terms of the concrete transmission mechanism, the NANET would imitate the physical transmission mechanism of neurons 
 				to achieve integration of different regional networks and distributed cooperative transmission.
-				
+		
 				For content-distribution applications in the network, its content obey the twenty-eight flow distribution law, which means that the minority of contents occupy the majority of data flow.
 				In traditional HWNs, the network status can't be memorized, and network content can't be perceived, which will lead to a large amount of content's repeated transmission in the same links.
 				Network traffic is exponentially increasing eventually, and we won't be capable of cope with the exponential growth of traffic if employing traditional HWN due to the linear expansion of the network capacity. In the following, we would expound the integral design of collaborative tranmission mechanism.
 				
 				The NANET is a integrated network with the trinity of time, space, and frequency.
-				Spectrum resources are limited. This requires us to make reasonable use of spectrum resources.
-				Through multiple levels of multiplexing of spectrum resources, such as time, space, and frequency, the utilization efficiency of communication resources is improved, and time-space-frequency integrated information transmission is realized.
-				So it's necessary for us to make reasonable use of spectrum resources, and to increase the utilization efficiency of communication resources through the multiplexing of spectrum, such as the integration of time domain, space domain, and frequency domain, as the neurons does in dendrites' information integration.
-				The NANET is an integrated network of sky, air, and ground. 
-				The integration of sky, air, and ground not only enables the network to have large-scale changes in scale,
-				but also enlarge the coverage range of the network.
-				And it could conduce to the combination of the control channel and the Service channel, which would in turn contribute to the cooperative transmission of the content.
-				The NANET is a network with links, networks and Service integrating.
-				Through the computation and storage capabilities of network nodes, HWN networks can perceive and comprehend the contents that application distributes and user requests.
-				It's essentially a cross-layer collaboration of the network layer and the application layer, 
-				which will be conductive to alleviate or solve the exponential growth problem of traffic and bring about a series of  institutional optimizations of traditional content distribution.
-			
-				Hence, the NANET is a content-oriented network wih the ability of distributed collaborative transmission.
-				Therefore, the NANET is a content-oriented network with a distributed cooperative transmission mechanism.
-				From the perspective of network topology, we hope that the AN-HWN network can construct the network topology actively for specific tasks and achieve the appropriate network transition.
-				For specific services, resources can be dynamically allocated to realize the on-demand allocation of resources.
-				Content-oriented, distributed and collaboratively transmitted, to ensure the quality of service of users.
+				Spectrum resources are limited, which requires us to make reasonable use of spectrum resources.
+				The NANET would apply the techniques of time division multiplex(TDM)\cite{spirit1994optical}, frequency division multiplex(FDM)\cite{weinstein1971data}, and combine the directional antennas to enlarge the efficiency of space utilization, as the neurons does in dendrites' information integration.
+				The NANET is a integrated network with the trinity of space, air, and ground. 
+				As for the topology, nodes within in space layer possess the inner-satelite links, while the nodes within air layer hold the inner-HAP links.
+				Meanwhile, the space layer, air layer, and ground layer are connected with each other through the satelite-groud links, satelite-HAP links, and HAP-ground links.
+				The integration of sky, air, and ground not only enables the network to have the large-scale and small-world properties, but also enlarge the coverage range of the network.
+				From the network architechture aspect, it also enhance the hierachy of NANET to facilitate the network management to some extents.
+				And it can conduce to the combination of the control channel and the service channel, which would in turn contribute to the cooperative transmission of the content.
+				The NANET is a integrated network with the trinity of links, networks and service.
+				Through the computation and storage capabilities of network nodes, NANET can perceive and comprehend the contents that application distributes and user requests.
+				It's essentially a cross-layer collaboration of the network layer and the application layer, which will be conductive to alleviate or solve the exponential growth problem of traffic and bring about a series of  institutional optimizations of traditional content distribution.
 				
-	\section{Conclusions and Visions Future}
-	\label{section: Conclusion}
-		Recently, mobile ad hoc network is attracting lots of research attention in multiple fields with the development of internet of vehicles as well as internet of things. 
-		However, the performance of HWN would decrease exponentially with the increasing of nodes' number and mobility due to the time-varying of network topology and uncertainty of service requirement. 
-		In this paper, we firstly introduce the information transmission mechanism of neural netwroks, 
-		and compare the mechanisim with that of mobile ad hoc network, 
-		including the node model, network structure, and transmission protocol. 
-		And then, we propose the Neuron Analogy Mobile Ad Hoc Network(NANET) and provide its overall design of node and network architecture simultaneously.
-		In addition, we depict the overall design goals and related feasible technologies.
-		Therefore, the information transmission of the space-air-land integrated NANET is equipped with the characteristic: separation of Service channels and control channels, combination of wide and narrow bands, integration of long and short links.
-		It's a compromise between robustness and transmission efficiency.
+				Hence, the NANET is a content-oriented network with a distributed cooperative transmission mechanism.
+				From the perspective of network topology, the NANET can construct the network topology actively for specific tasks.
+				For specific services, the resources can be dynamically allocated to realize the on-demand allocation of resources.
+				As for content distribution, the NANET is content-oriented, in which contents can be collaboratively distributed and  transmitted to ensure the QoS.
 
+	\section{Conclusions and Future Visions}
+	\label{section: Conclusion}
+		In this article, we elaborate the primary challenges the current HWN confronting and some of its reason.
+		In order to and propose a NANET envision through the analogy between biological neural networks and the HWN.
+		In this alleviate these problems, we research the biological neuron transmission mechanism, which has emerged as a  promisiong and referenceable information transmission mechanism, 
+		and make analogies with that of the HWNs.
+		A neuron-analogy heterogeneous wireless network was propose that mainly possesses node structure, network architechture and transmission protocol.
+		And the NANET would be able to actively construct network topology, dynamically allocate the network sources, and collaboratively transmit information.
+
+		To the best of our knowledge, it's a pioneering work for comparing the HWNs to biological neuron networks, and put forward the NANET. 
+		Future directions consist mainly of the design details of NANET node, architechture, and tranmission protocol.
+		
 	\appendices
 	\section*{Acknowledgment}
 	This work is financially supported by Natural Sciences and Engineering Research Council of Canada (NSERC) and National Natural Science Foundation of China (91638204).
