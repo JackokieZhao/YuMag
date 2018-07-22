@@ -17,7 +17,7 @@
 	\title{Bio-Inspired Heterogeneous Wireless Networks Design: A Neuron Analogy Perspective }
 	
 	\author{Quan~Yu,~\IEEEmembership{Fellow,~CAE}}	
-	\markboth{}%
+	\markboth{Journal of Communication,~Vol.~14, No.~8, December~2018}%
 	{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Communications Society Journals}
 	\maketitle
 	
@@ -80,13 +80,13 @@
 	
 	\subsection{Mobility of Network Node}
 		As for the nodes of HWN,  they moves frequently with a wide scale of moving speed but without regular movement rules, 
-		which leads great difficulty to model the mobility behaviors of network nodes.
-		The core problem of HWN is the mobility for they always results in tremendous overhead of routing protocol. 
+		which leads great difficulty to model the behaviors of network nodes.
+		The core problem of HWN is the mobility, which always results in tremendous overhead of routing protocol. 
 		However, what's terrible is that when the network is in a bad status, mobility would make it even worse. 
 		Because the faster the network framework changes, the larger the signaling overhead of mastering the state of the network.
-		And meanwhile, uncertain movements of nodes implies fast and unpredictable alterations in the network topology, throughput, load, and etc. 
+		And meanwhile, uncertain movements of nodes implies fast and unpredictable changes in the network topology, throughput, load, etc. 
 		If employing traditional network architecture and routing protocol, the time-varying network topology will cause tremendous routing overheads, 
-		making it difficult to content exponential user demand for network traffic, service, and stability included.
+		making it difficult to content users' demands for network traffic, service, and stability included.
 	
 	\subsection{Network Architecture}
 	
@@ -101,18 +101,18 @@
 			However, heterogeneity is not only a challenge but also an opportunity.
 			It is hard for a homogeneous network to meet the complicated needs of the network's services. 
 			To some extent, a network would become heterogeneous inevitably as 4G, vehicle networks, and sensor networks have done.
-			Therefore, 	we should also do research on a universal framework to deal with the challenges that heterogeneity bring to us while emploiying the heterogeneity of the network to bring convenience to us.
+			Therefore, 	we should also do research on a universal framework to deal with the challenges that heterogeneity bring tp us while emploiting the heterogeneity of the network to bring convenience to us.
 			In essence, it is an engineering balance between the adaptability and the complexity brought by the heterogeneity.		
 			
 			\subsubsection{Time-variability and Uncertainty of Network Topology}
 				HWN is a time-varying and uncertain network.
-				With the movement of network node, the network topology is changing over time and speed of correlative node.
+				With the movement of network node, the network topology is changing over time and correlative node speed.
 				Time-variability determine that management of the HWN is much more complicated than that of wired network,
 				because the dynamics of the network topology requires dynamic self-organizing and self-configures of network management system. 
 				In the meantime, the type of service, and the traffic flow are uncertain, 
 				which will engender an exponential decline of the network  performance.
 				Considering the limitations of the mobile node itself, such as limited energy, transmission link status, 
-				tiny bandwidth, restricted storage capacity, and etc., 
+				tiny bandwidth and restricted storage capacity, etc., 
 				we should take into account the load brought by the management protocol to the entire network. 
 				Besides, we must consider the applicability of network management to different environments.
 		
@@ -125,7 +125,7 @@
 				attenuation of wireless signals, noise interference, and interference due to channel characteristics.
 				And then, all these conditions lead to the fact that the actual bandwidth available to the mobile terminal is far less than the theoretical bandwidth.
 				It's tough for the bandwidth of transmission link to sustain to increase since the spectrum resources used for wireless transmission are limited(i.e., the capacity of the network is limited).
-				Hence, it's  for HWN networks to fulfill the exponential growth of user demand for network traffic.
+				Hence, it's  for HWN networks to fulfill the exponential growth of users' demands for network traffic.
 			
 			\subsubsection{Strong Wireless Channel Inference}
 				The wireless channel is relatively uncertain in a sense.
@@ -133,8 +133,8 @@
 				In order to meet peformance and service requirements in 5G, operators are constructing a series of ultra-dense networks, 
 				which greatly increases the interference between networks, for example, the neighborhood interference.
 				At the same time, the continuous development of networks, such as sensor networks, smart power grids, vehicle networks, etc., 
-				does bring about the significant interference to the HWN . 
-				All these interferences will have an adverse effect on the channel environment and performance indicators( such as BER and SNR). 
+				the significant interference within the HWN . 
+				All these interferences will have an adverse effect on the channel environment and performance indicators( BER and SNR). 
 				which subsequently makes stupendous trouble on guarantee of network performance and quality of service.
 		
 		\subsection{Diversity of Network Service}
@@ -152,7 +152,7 @@
 	
 	\section{Overview of Biological Neural Networks}
 	\label{section: information_transmit}
-		Brain is the command center for the human nervous system.
+		Brain is the command center for the human nervous system\cite{hart1983human}.
 		The nervous network achieves the basic function of signal transduction and information transmission with specialized characteristics.
 		Although everyone's nerons are the similar, there will be many amazing creativities when cells connecting and forming a trillion-dollar link.
 		In this section, we'll discuss the basic characteristics of neural network in three issues: the neuron node, the  information transmission between neuron nodes, and the neural network.
@@ -175,7 +175,7 @@
 					\end{minipage}}
 					\caption{Different shapes of neuron and its elementary structure model.}
 				\end{figure*}
-				As shown in Fig. \ref{fig: node_het}, there are mainly three types of neurons based on shape and number of neurites: the unipolar, bipolar and multipolar neurons\cite{Bear2010Neuroscience}. 
+				As shown in Fig. \ref{fig: node_het}, there are mainly three types of neurons based on shape and number of neurites: the unipolar, bipolar and multipolar neurons\cite{bear2007neuroscience}. 
 				In general, neuron contains at least two distinguishable parts: a central region including the cell body, and multiple neurites radiating away from the cell body. 
 				Inside the neuron cell body, the cytoskeleton, consisting of microtubules, microfilaments, and neurofilaments, shapes the neuron cell and regulates itself dynamically. 
 				What's called the synapse is the junction between the axon of the previous neuron and the dendrites of the next neuron.
@@ -190,13 +190,13 @@
 				Therefore the signal in neuron transmits from one axon to multiple dendrites in the form of an internal broadcast, which manifests a non-selective feature.
 				Dendrites usually branch out in tree-like fashion, and are the main apparatus for receiving incoming signals from other nerve cells. 
 				Each of dendrites has its own direction of reception and is responsible for the information acception in this direction, which means that the reception is directional. 
-				In addition, we can also find that the information is merged in each small branch point and then transmitted to the cell body.	
+				In addition, we can also find that the information is merged in each small branch point and then transmitted to the cell body.			
 			
 			\subsubsection{Information Processing in Neurons}
 				The generation of action potential is based on the parallelled information fusion and processing in the cell body through weighing the consequences of input local signals and then deciding whether to generate an action potential. 
 				When the sum of depolarizations produced by the local signals surpasses a certain voltage threshold, the sodium ion channels in the cell membrane are open and generate an action potential at the trigger zone. 
 				In biological neuron, there exits a kind of excitable membrane that is able to keep action potential with fixed strength and duration once it has been generated.
-				Eventually, information is encoded with the frequency of action potentials as well as number and combination of action potentials from different neurons\cite{Bear2010Neuroscience}. 
+				Eventually, information is encoded with the frequency of action potentials as well as number and combination of action potentials from different neurons\cite{bear2007neuroscience}. 
 				
 		\subsection{Overall Characteristics of Neural Networks}
 			The development of brain science has enabled us to study the structure of the human brain and corresponding mechanism of information transmission.
@@ -234,7 +234,7 @@
 				inducing an electrical postsynaptic potential.	
 				Most gap junctions allow ionic current to pass equally well in both directions.
 				Therefore, electrical synapse transmission is bidirectional which is different from the vast majority of chemical synapses.
-				Transmission at electrical synapses is very fast and reliable, and it can approach the speed of light in a idle condition. 
+				Transmission at electrical synapses is very fast and, and it can approach the speed of light in a idle condition. 
 				
 				Generally, neuronal cells receive thousands of synaptic inputs that activate different combinations of receptor proteins and their corresponding ion-gated channels on the cell surface.
 				It namely means that neuronal information transmission is related to combination of activated channels and receptor proteins, which is similar to the network coding in our information network. 
@@ -244,13 +244,13 @@
 			\subsubsection{A Scale-free Network Structure Subjected to Power-law Distribution}
 			
 				In terms of network scale, the neural network obeys the so-called power law distribution (scale-free) that has a certain structural universality\cite{eguiluz2005scale}.
-				The range of neuronal network signal transmission is large-scale changes, and the length of axons ranges from several micrometers to more than one meter reaching a difference of nearly a million times.
+				The range of neuronal network signal transmission is large-scale changes, and the length of axons ranges from several micrometers to more than one meter which is a difference of nearly a million times.
 				Meanwhile, the neural networks is with short average path length, big clustering coefficient, and more clustered feature compared to random networks, which represents the small-world characterisctic in a sense\cite{eguiluz2005scale}.
 				As \cite{papo2014complex} noted, the brain neuron network shows small-world property at global level, non-random topological property at mesoscopic level, and centrality property at nodal level. 
 			
 			\subsubsection{Hierarchical and Heterogeneous Network Architecture}			
 				On the one hand, the biological neural network is a hierachical network.
-				For example, the cell bodies of cortical neurons are always arranged in layers, or sheets, that usually lie parallel to the surface of the brain\cite{Bear2010Neuroscience}.
+				For example, the cell bodies of cortical neurons are always arranged in layers, or sheets, that usually lie parallel to the surface of the brain\cite{bear2007neuroscience}.
 				In addition, neurons in the cerebral cortex are organized in layers, including molecular layer, external granule cell layer, external pyramidal cell layer, internal granule cell layer, internal pyramidal cell layer and multiform layer. 
 				On the other hand, the biological neural network is a heterogeneous network consisting of node heterogeneity and topology heterogeneity.
 				From the perspective of node,  the heterogeneity is reflected on the structure and function.
@@ -266,14 +266,14 @@
 		The traditional communication mainly focuses on point-to-point communication.
 		However, in the information network, especially the Internet, point-to-point communication has been negligible. 
 		Thus, we are more concerned with proliferation and sharing of information.
-		In this section, we will compare the HWN network with the neural network from three aspects: the node model, the network architecture, and the transmission protocol between nodes as well.
+		In this section, we will compare the HWN network with the neural network from three aspects: the node model, the transmission protocol between nodes, and the network architecture as well.
 		
 		\subsection{Analogy of Node Model}
 		\label{subsec: analogy_of_node_model}
 			The neuron is mainly consisted of cell body and neurites, in which the neurites is in charge of information transmission and reception while the cell body is used to information processing and storage.
 			Therefore, the information of neuronal cells is a trinity of transmission, coomputation, and storage.
 			Moreover, the computation and storage are always integrated in a sense, conforming to the relevant theory of computer.
-			As there are three chief shapes of neurons, each of which equips different function, we can strengthen a certain ability, such as transmission or computation, to reinforce considerding function.
+			As there are three chief shapes of neurons, each of which equips different function, we can strengthen a certain ability, such as transmission or computation, to reinforce considerding function of the neuron.
 			In neural system, it employs the synapse for information interaction among different neurons, which resembles the combination of antenna and baseband processing unit in communication system.
 			And the dendrites and axons are seperated, revealing the separation of transmission and reception in neuron cell.
 			The information is transmitted omnidirectionally by axon while it's received directionally by dendrites at the synapse.
@@ -284,12 +284,12 @@
 
 		\subsection{Analogy of Network Architecture}
 		
-			The human brain contains nearly 100 billion neuron cells, each of which comprise different shapes and functions.
+			The human brain contains nearly 100 billion neuron cells, each of which has different shapes and functions.
 			However, when these cells are connected in different ways, trillions of links are established.
 			All of the neuron and links can be well coordinated to constitute the human's various nervous systems, and operate methodically.
 			Hence, the stable mechanism of information transmission in such a large and complex system is of great reference value for our communication network.
 			Comparing with biological neural network, the naturally forming HWN is a scale-free network subjected to power-law distribution, too.
-			And, the majority of nodes and links possess a short average path length and can cluster in a relatively small locality obeying small-world property.
+			And, the majority of nodes and links possess a short average path length and can cluster in a relatively small locality subjected to small-world property.
 			From the perspective of network framework, neural netwokr is a distributed and peer-to-peer network without a strict control center but with a stable backbone netowrk relatively.
 			Simultaneously, both the neural network and HWN are hierachical and heterogeneous.
 			At every second, there are thousands of new connections established and thousands of connections broken while more connections are modified at strength, 
@@ -304,8 +304,8 @@
 			Since the electrical synapse applys the electron to transfer information, its' speed is extraodinarily fast than that of chemical synapse that employs the neurotransmitter with a delay of about one millisecond.
 			The chemical synapse is collaborative for its abilities of fusing and processing, while the electric synapse is  exceedingly reliable due to the constant action potentials.
 			Meanwhile, it's duplex and narrow-band for information transfer in  electric synapse but singleplex and wide-band for that in chemical synapse, 
-			because the the multiplex mode, and the bandwidth requirements of the signaling channel and the traffic channel are different.
-			Fig. \ref{fig: transport_pro} shows the transport protocol analogy of NANET and neuron Network.
+			because the the multiplex mode and the bandwidth requirements of the signaling channel and the traffic channel are different.
+			Fig. \ref{fig: transport_pro} shows the transport protocol analogy of NANET and Neuron Network.
 			
 			\begin{figure}[htbp]
 				\centering
@@ -314,16 +314,16 @@
 				\label{fig: transport_pro}
 			\end{figure}
 			As is shown in the Fig. \ref{fig: transport_pro}, transmission mechanism of neuron information mainly includes single-line transmission, convergent transmission, parallel transmission, and a small amount of divergent transmission.
-			Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the divergent transmission is mainly employed to distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward distribution.
+			Among the diverse transmission mechanism, the single-line transmission is mainly the information transmission between two interconnected and independent neurons, while the divergent transmission is mainly the neurons distribute the information to the surrounding neurons in a broadcast-like pattern, using the surrounding neurons to assist in the information's forward dissemination.
 			The neuron network receives a variety of inputs with time and space diversity, and  generates a particular output after a complicated and complex information fusion.
 			Accordingly, the parallel transmission is a collaborative way through the participation of multiple sets of network nodes, which is similar to the core thoughts of network coding.
-			In the single-line transmission,  it's analogous to the point-to-point transmission that is commonly used in communication, because the information only interacts between two nodes.
-			Transmitting information through the participation of other nodes, the divergent transmission can be analogized to the distributed MIMO at the physical layer, which can improve the system spectrum efficiency and transmission reliability, expand the scope of information distribution.
+			In the single-line transmission,  it's analogous to the point-to-point transmission that is commonly used in communication, because the information only interacts between two nodes,
+			Transmitting information through the participation of other nodes, the divergent transmission can be analogized to the distributed MIMO at the physical layer, which can improve the system spectrum efficiency and transmission reliability, expand the scope of information dissemination.
 	
 	\section{The Integral Design and Goals of Neuron Analogy Mobile Ad Hoc Network}
 	\label{section: general_design}
-		In this section, we propose a kind of neuron analogy HWN(\ref{fig: sys_frame}) , which is called NANET, after the analogy of information transmission mechanism between biological neuron networks and HWNs.
-		For the entire NANET, we introduce certain goals and techniques in the perspective of network topology, user service, and transmitting contents.
+		In this section, we propose a kind of neuron analogy HWN(\ref{fig: sys_frame})  after the analogy of neuronal information transmission mechanism and HWN.
+		For the entire NANET, we introduce certain goals and techniques in the level of network topology, user service, and transmitting contents.
 		
 		\subsection{Design of NANET Node}
 				Fig. \ref{fig: NANET_node} shows the model of NANET node we proposed.
@@ -337,22 +337,22 @@
 			\subsubsection{Design of NANET Node Structure}
 				In the Fig. \ref{fig: NANET_node}, we can find out that there is a small vertical stick in the middle of the node. 
 				It's the omnidirectional antenna of NANET node corresponding to the axon of the neuron node, and we can broadcast and forward information omnidirectionally.
-				There are many a blocks pointing to all directions at the bottom of the NANET node, which denote directional antenna. 
+				There are many a blocks pointing in all directions at the bottom of the NANET node, which denote directional antenna. 
 				Corresponding to the dendrite of the neuron node, they can receive information form different directions.
-				Following, it is the baseband processing unit(BPU) connected with directional antennas in the center area of NANET node,
+				Following, it is the baseband processing unit(BPU) for the smallest y area connected with directional antennas in the center area of NANET node,
 				which is mainly used for preprocessing of information reception and information processing, such as the signal amplification, etc.
-				Below the BPU, the light gray cylinder represents the CPU that is utilized to process the signal to transmit or receive, for example, the fusion of signals from multiple directional antennas.
+				Below the BPU, the light gray cylinder represents the CPU that is utilized to process the signal to transmit or receive, for example, the fusion of signals from multiple directional antennas..
 				At the bottom of NANET node, there exits a dark gray cylinder euqipped with the storage or cache capability of processing data or computing results.
 				Certainly, the nodes would vary in the shape and function to feed the service requirements.
 				For instance, the communication nodes would strenghthen their transmission ability emerging a higher communication capacity, while the computation node would build up the computing power.
-				Accordingly, we would alter the shape of node to fit for the functional requirements of the network, and then, the heterogeneity appears in NANET nodes.
+				Accordingly, we would alter the shape of node to fit for the functional requirements of the network, and then node's heterogeneity appears.
 				
 			\subsubsection{Design of Information Transmission and Reception Mechanism in NANET Node}
 				In the design of NANET nodes, the information transmission and reception are uncoupled guaranteed by the seperation of transmission antenna and reception antenna.
-				As for the transmission antenna(in control backbone node? not clear), it's the omnidirectional antenna with larger power than the reception antenna, and transmit the information in a broadcast form. 
-				And it also assists other nodes in the transmitting information when forwarding its own received information, which can achieves the effectiveness of cooperative transmission between the nodes.
+				As for the transmission antenna(in control backbone node? not clear), it's the omnidirectional antenna with larger power than the reception antenna, and transmit the information with in a broadcast form. 
+				And it also assists other nodes in the transmitting information when forwarding its own received information, which can achieves the effect of cooperative transmission between the nodes.
 				Information reception of NANET node utilize multiple directional antennas to separate different channels and receive information through specific orientation. 
-				To some extent, the application of multi-channel antenna could contribute to the reducing interference as well as facilitating the fusion of multi-channel information.
+				To some extent, multi-channel antennas' application could contribute to the reducing interference as well as facilitating the fusion of multi-channel information.
 				And the multichannel reception would effectively promote the spectrum efficiency, transmitting speed, and QoS in NANET.
 				Certainly, from the perspective of MIMO, it can exploit the spatial degrees of freedom provided by the multi-channel transmission channel.
 				In certain, we also enhance the capabilities of storage and computation  in NANET node, so that it has the fusing and processing capabilities in application layer.
@@ -373,7 +373,7 @@
 	
 		\subsection{Design of General NANET Architecture}
 			
-			In the following, we will propose a NANET architechture with the trinity of space, air, and groud based on the analogy to the biological neural network.
+			In the following, we propose a NANET architechture with the trinity of space, air, and groud based on the analogy to the biological neural network.
 			Fig. \ref{fig: sys_frame} shows the general design of NANET architecture from the macro perspective.
 			\begin{figure*}[htbp]
 				\centering
@@ -382,7 +382,7 @@
 				\label{fig: sys_frame}
 			\end{figure*}
 			\subsubsection{Scale-Free Network}
-				Any naturally growing network would tend to developing into a scale-free network, as is done for transportation network, highway network, and etc. 
+				Any naturally growing network would tend to developing into a scale-free network, such as transportation network, highway network, etc. 
 				It's primarily due to that the scale-free network is a good compromise for robustness and transmission efficiency.
 				As a space-air-groud integrated network, NANET contains large-scale changing links among NANET nodes.
 				Lengths of links differs from each other, and subjects to power distribution as well. 
@@ -395,11 +395,11 @@
 				and information transmission in control channel is bi-directional, fast, and reliable when compared with service channel.                  
 				Signaling information doesn't require further amplification due to its shortness.
 				And it can't be processed, meaning that it has the characteristic of invariance.
-				Moreover, the property of reliability and unchangeability can be further guaranteed from the protocol level.
-				On the one hand, wired channels can be used as control channel on account of its highest transmission speed.
-				On the other hand, the satelite or airship links can serve as control channel as well, while the links among genenral node play the part of service channels, 
+				Moreover, the property of reliability and unchangeability can be further guaranteed at the protocol level.
+				On the one hand, wired channels can be used as control channel in ground for its highest transmission speed.
+				On the other hand, the satelite or airship links can serve as control channel as wel,l while the links among genenral node play the part of service channels, 
 				which realizes the characteristic that control channel is dramatically faster than the service channels.
-				Because the ground node might require many hops to reach the target node for most nodes, whereas the satellite node can almost connect to any node by one hop.
+				Because the ground node might require many hops to reach the target node for most nodes while the satellite node can almost connect to any node by one hop.
 				Thus, the transmission efficiency of satellite communication is the highest, and its delay may also be affected by the number of hops which is much lower compared to the ground network.
 				Of course, its resistance to damage and robustness are the worst, too.
 
@@ -416,10 +416,10 @@
 				Heterogeneity is not only a challenge but also an opportunity. 
 				Homogeneous networks are difficult to adapt to the uncertain requirements of complex time-varying transmission, processing, and control.
 				Above all, we employ different small-world networks, which bring about the adaptability to situations the network meeting, to satisfy various users' requirements of service or functions.	
-				And then, we would introduce some artificial factors to the architechture construction of NANET to make the network more expedient to sense, manage, and rebuild in some extents.
+				And then, we would introduce some artificial factors to the architechture construction of NANET to make the network more expedient to sense, manage, and remold to some extents.
 				As shown in Fig. \ref{fig: sys_frame}, the NANET would be growing hierachically of its own accord, 
 				as there are naturally three layers in the network: the space layer(satelites), the air layer(airships, airplanes, UAVs, etc.), and the grond layer(random access network).
-				Hence, the NANETs can naturally form a hierarchical and heterogeneous network framework in the network scale.
+				Hence, the NANETs can naturally form a hierarchical and heterogeneous network framework on the network scale.
 		
 		\subsection{Design of Transmission Protocol of NANET}
 		
@@ -432,8 +432,8 @@
 				In summary, the information transmission in NANET is based on the information fusion and cooperation of distributed nodes and links.
 
 			\subsubsection{Coding Synergy in Network Layer}
-				In the design of network content transmission, the wireless nature of NANET means the adverse effect on the inteference, the packets loss, etc.
-				\cite{ahlswede2000network} offers us a great revelation in coding synergy(coupled with network topology), especially in satellite communication. 
+				In the design of network content transmission, the wirelss nature of NANET(coupled with network topology) means the adverse effect on the inteference, the packets loss, etc.
+				\cite{ahlswede2000network} offers us a great revelation in coding synergy, especially in satellite communication. 
 				The NANET nodes are capable of transmission, computation, and storage.
 				Meanwhile, network coding will enable NANET nodes to achieve both coding and routing functions.
 				Thus, we can enable the backbone ground nodes, air nodes and space nodes to be provided with the scheduling ability.
@@ -447,8 +447,8 @@
 				As NANET nodes have the abilities of fusing and processing, we can use the node's capability of storage to cache user-requested content in the network nodes where users relatively concentrated in, and respond to users' real-time requests. 
 				Thus, users can be adequate to obtain the content requested in the surrounding nodes, which would improve the efficiency of the users' acquisitions of data resources.
 				And then, the NANET would naturally come into being a content distribution network, promoting the intelligent flow of content in NANET.
-				In the application layer, the content distribution of NANET would redirect the user's request to the service node closest to the user himself/herself, according to the network traffic, links status, load, response time, and etc.
-				In this way, the user can get the desired content nearby, which at the same time can alleviate or solve the issue of network congestion, improve the response speed of the user's requests for services and resources, and greatly promote the efficiency of resource utilization.
+				In the application layer, the content distribution of NANET would redirect the user's request to the service node closest to the user himself/herself, according to the network traffic, links status, load distribution, response time, etc.
+				In this way, the user can get the desired content nearby, which at the same time can alleviate or solve the issue of network congestion, improve the response speed of the user's requests for services and resources, and greatly improve the efficiency of resource utilization.
 				Therefore, information distribution of NANET can realize distributed content synergy in application layer.
 				
 		\subsection{Design Goals and Techniques for NANET}
@@ -468,7 +468,7 @@
 				After each node in NANET obtains its own status, it reports the status information to the control backbone network with the control channel.
 				Then the nodes' information is gathered at the control backbone nodes, and they would delivers the signaling of topology information to relevant nodes within the NANET.
 				Following, corresponding nodes would regulate their own state according to the control signaling to realize the macro network topology adjustments.
-				Therefore, the NANET topology is dynamically planned and adjusted in a approximately real-time manner according to the system requirements.
+				Therefore, the NANET topology is dynamically planned and adjusted in a quasi-real-time manner according to the system requirements.
 				
 				There exits many advantages for NANET.
 				On the one hand, the system overhead caused by the cooperation of multiple groups of service channels through the control channel is much smaller if compared with the cost of routing, 
@@ -500,7 +500,7 @@
 				Blockchain is a value-passing network, and had been proposed by Satoshi Nakamoto in 2008\cite{nakamoto2008bitcoin}. 
 				It is an intelligent peer-to-peer network that uses a distributed database to identify, disseminate, and document information. 
 				Hence, we could use the relevant blockchain technology to value network resources in NANET, establishing a natural competition mechanism.
-				In the NANET, users can purchase the virtual currency, and they can also obtain virtual currency through previous behavior on network resource utilization as well.
+				In the NANET, users can purchase the virtual currency, and they can obtain virtual currency through previous behavior on network resource utilization as well.
 				For example, if a user decreases the network load, or facilitates load balancing, or improves resource utilization of whole network through his own actions, 
 				NANET system would award the user a corresponding count of virtual currency as a reward for his promoting overall network performance. 
 				As for the mechanism of dynamic pricing and dynamic charging of resources, 

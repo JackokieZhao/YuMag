@@ -11,16 +11,10 @@ Rudolf Ahlswede, Ning Cai, S-YR Li, and Raymond~W Yeung.
 \newblock {\em IEEE Transactions on information theory}, 46(4):1204--1216,
   2000.
 
-\bibitem{bear2007neuroscience}
-Mark~F Bear, Barry~W Connors, and Michael~A Paradiso.
+\bibitem{Bear2010Neuroscience}
+MARK~F. BEAR, BARRY~W. CONNORS, and MICHAEL~A. PARADISO.
 \newblock {\em Neuroscience}, volume~2.
-\newblock Lippincott Williams \& Wilkins, 2007.
-
-\bibitem{bendsoe2001topology}
-Martin~P Bends{\o}e.
-\newblock Topology optimization.
-\newblock In {\em Encyclopedia of Optimization}, pages 2636--2638. Springer,
-  2001.
+\newblock Lippincott Williams \& Wilkins, 2016.
 
 \bibitem{boccaletti2006complex}
 Stefano Boccaletti, Vito Latora, Yamir Moreno, Martin Chavez, and D-U Hwang.
@@ -62,25 +56,10 @@ Eric~R Kandel, James~H Schwartz, Thomas~M Jessell, Steven~A Siegelbaum, A~James
 \newblock {\em Principles of neural science}, volume~4.
 \newblock McGraw-hill New York, 2000.
 
-\bibitem{mauve2001survey}
-Martin Mauve, Jorg Widmer, and Hannes Hartenstein.
-\newblock A survey on position-based routing in mobile ad hoc networks.
-\newblock {\em IEEE network}, 15(6):30--39, 2001.
-
 \bibitem{nakamoto2008bitcoin}
 Satoshi Nakamoto.
 \newblock Bitcoin: A peer-to-peer electronic cash system.
 \newblock 2008.
-
-\bibitem{nash1951non}
-John Nash.
-\newblock Non-cooperative games.
-\newblock {\em Annals of mathematics}, pages 286--295, 1951.
-
-\bibitem{newman2003structure}
-Mark~EJ Newman.
-\newblock The structure and function of complex networks.
-\newblock {\em SIAM review}, 45(2):167--256, 2003.
 
 \bibitem{papo2014complex}
 David Papo, Javier~M Buld{\'u}, Stefano Boccaletti, and Edward~T Bullmore.
@@ -90,17 +69,6 @@ David Papo, Javier~M Buld{\'u}, Stefano Boccaletti, and Edward~T Bullmore.
 Gang Peng.
 \newblock Cdn: Content distribution network.
 \newblock {\em arXiv preprint cs/0411069}, 2004.
-
-\bibitem{royer1999review}
-Elizabeth~M Royer and Chai-Keong Toh.
-\newblock A review of current routing protocols for ad hoc mobile wireless
-  networks.
-\newblock {\em IEEE personal communications}, 6(2):46--55, 1999.
-
-\bibitem{spirit1994optical}
-Dave~M Spirit, Andrew~D Ellis, and Pete~E Barnsley.
-\newblock Optical time division multiplexing: Systems and networks.
-\newblock {\em IEEE Communications Magazine}, 32(12):56--62, 1994.
 
 \bibitem{sporns2002network}
 Olaf Sporns.
@@ -114,12 +82,5 @@ Klaas~E Stephan, Claus-C Hilgetag, Gully~APC Burns, Marc~A O'Neill, Malcolm~P
   primate cerebral cortex.
 \newblock {\em Philosophical Transactions of the Royal Society of London B:
   Biological Sciences}, 355(1393):111--126, 2000.
-
-\bibitem{weinstein1971data}
-S~Weinstein and Paul Ebert.
-\newblock Data transmission by frequency-division multiplexing using the
-  discrete fourier transform.
-\newblock {\em IEEE transactions on Communication Technology}, 19(5):628--634,
-  1971.
 
 \end{thebibliography}
